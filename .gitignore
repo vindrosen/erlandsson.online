@@ -1,0 +1,16 @@
+# OS / OneDrive noise
+desktop.ini
+Thumbs.db
+.DS_Store
+*.log
+
+# Root-level originals (copies live in assets/brand and assets/docs)
+/Design.png
+/logo.png
+/Logo_wihte.png
+
+# Never commit keys
+*Key*.txt
+*KEY*.txt
+*nyckel*
+.env

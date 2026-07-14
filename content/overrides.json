@@ -1,0 +1,659 @@
+{
+  "blizzard-run": {
+    "title": "Blizzard Run",
+    "category": "game",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Endless arcade skiing with the soul of a 90s classic — outrun the Blizzard Beast",
+    "description": [
+      "Blizzard Run is my love letter to the ski games of the 90s, rebuilt from scratch as a modern browser game. You race down an endlessly generated mountain, weaving between trees and rocks, landing tricks and collecting coins — all while a rubber-banded Blizzard Beast hunts you down the slope.",
+      "Everything is procedural: the mountain guarantees a survivable path while escalating set-pieces, and all graphics and sound are generated at runtime with Canvas and WebAudio — the whole game ships without a single sprite sheet or audio file.",
+      "It is also a full PWA: install it, play it offline, and work through five game modes, seven power-ups, cosmetic unlocks and fourteen achievements."
+    ],
+    "features": [
+      "Endless procedural mountain with a guaranteed safe path",
+      "Chase AI: the Blizzard Beast rubber-bands to keep every run tense",
+      "5 game modes including seeded Daily Challenge and Time Trial",
+      "7 power-ups, cosmetics, trails, emotes and 14 achievements",
+      "Accessibility options: reduced motion, high contrast, left-handed layout",
+      "Installable offline PWA — zero dependencies, no build step"
+    ],
+    "tags": [
+      "JavaScript",
+      "Canvas",
+      "WebAudio",
+      "PWA"
+    ],
+    "platform": "web",
+    "difficulty": "advanced",
+    "featured": true,
+    "curated": true
+  },
+  "bokstavspussel": {
+    "title": "Bokstavspussel",
+    "category": "game",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "A Swedish spelling puzzle for kids — drag the letters, build the word",
+    "description": [
+      "Bokstavspussel (\"Letter Puzzle\") is a spelling game I built for young kids learning to read Swedish. Drag colorful letter tiles into slots to spell words, with three difficulty levels that grow with the child — from three-letter words up to real tongue-twisters.",
+      "The whole game is one self-contained HTML file: no server, no libraries, works offline on any tablet. Audio feedback is synthesized in the browser and every correct word is celebrated with encouraging Swedish phrases."
+    ],
+    "features": [
+      "Drag-and-drop letter tiles designed for small fingers",
+      "Three difficulty levels, remembered between sessions",
+      "Synthesized sound effects and encouraging feedback",
+      "Single HTML file — works offline, nothing to install"
+    ],
+    "tags": [
+      "JavaScript",
+      "Kids",
+      "Education",
+      "Swedish"
+    ],
+    "platform": "web",
+    "difficulty": "simple",
+    "curated": true
+  },
+  "disco-bowl-neon-strike": {
+    "title": "Disco Bowl: Neon Strike",
+    "category": "game",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Bowling night meets disco fever — 1 to 4 players, lasers, mirror balls and strikes",
+    "description": [
+      "Disco Bowl turns a bowling alley into a full-blown disco: neon lights, lasers, a spinning mirror ball and real-time synthesized disco music. Up to four players take turns on the same device, each with their own avatar, shoes and ball.",
+      "The equipment actually matters — grip, glide, weight and spin feed into a physics model with a power meter and sweet-spot timing. Random comedic events (someone slips, the ball ends up on the ceiling) keep it fun without ever being unfair.",
+      "Built with pure HTML5 Canvas and WebAudio, pseudo-3D perspective and zero dependencies. The scoring and physics modules are plain testable JavaScript."
+    ],
+    "features": [
+      "1–4 players hot-seat on one device",
+      "Power meter with sweet-spot timing, spin and aim control",
+      "Equipment stats that genuinely affect ball physics",
+      "Real-time synthesized disco soundtrack and light show",
+      "Classic bowling scoring with strikes, spares and the 10th frame",
+      "21 AI-generated art assets in a unified neon theme"
+    ],
+    "tags": [
+      "JavaScript",
+      "Canvas",
+      "WebAudio",
+      "Physics"
+    ],
+    "platform": "web",
+    "difficulty": "advanced",
+    "featured": true,
+    "curated": true
+  },
+  "food-tracker": {
+    "title": "Food Tracker",
+    "category": "app",
+    "status": "in-development",
+    "tagline": "Snap a photo of your plate — AI estimates the calories",
+    "description": [
+      "Food Tracker started with a simple annoyance: logging meals by hand is tedious enough that nobody keeps doing it. So I built a tracker where you photograph your food and GPT-4o Vision breaks it down into ingredients with estimated calories, protein and fiber — all editable before you save.",
+      "Behind the React frontend sits an Express API with SQLite storage, a calendar view of every day's meals, daily weight logging and an automatic calorie-deficit calculator that turns your weigh-ins into a running energy balance.",
+      "The backend has a proper test harness (Vitest + Supertest) and runs fine without an API key — the AI endpoints simply switch off."
+    ],
+    "features": [
+      "AI photo analysis: per-ingredient calories, protein and fiber",
+      "Editable breakdowns — the AI suggests, you decide",
+      "Calendar and day views with daily goal tracking",
+      "Weight log with automatic calorie-deficit calculation",
+      "REST API over SQLite with a full test suite"
+    ],
+    "tags": [
+      "React",
+      "Express",
+      "SQLite",
+      "OpenAI Vision"
+    ],
+    "platform": "web",
+    "difficulty": "advanced",
+    "estimatedCompletion": "Core features complete — production hardening in progress",
+    "curated": true
+  },
+  "missile-command": {
+    "title": "Missile Command",
+    "category": "game",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "A pixel-faithful remake of the 1980 arcade classic — in your browser",
+    "description": [
+      "My remake of Atari's Missile Command, built to a written spec with the goal of being pixel-faithful to the 1980 original: a 256×231 internal buffer, fixed 60 Hz timestep, the classic color rotation every two waves, and the iconic unwinnable ending.",
+      "Defend six cities with three missile bases against ICBMs, MIRVs, smart bombs, bombers and satellites. Works with mouse on desktop and tap on mobile, installs as an offline PWA, and keeps a local top-10 high score table — just like the arcade."
+    ],
+    "features": [
+      "Faithful wave design: ICBMs, MIRVs, smart bombs, bombers, satellites",
+      "Authentic scoring with 1×–6× multiplier and bonus cities",
+      "256×231 internal resolution with era-correct color cycling",
+      "Mouse and touch controls, installable offline PWA",
+      "Local top-10 high score table"
+    ],
+    "tags": [
+      "JavaScript",
+      "Canvas",
+      "Retro",
+      "PWA"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true
+  },
+  "movieindex": {
+    "title": "MovieIndex",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Your local movie files, turned into a searchable library with posters and metadata",
+    "description": [
+      "MovieIndex scans a folder full of video files and turns it into something that looks like a streaming service: posters, ratings, cast, directors — all fetched from TMDB and cached locally in three tiers so rescans are instant.",
+      "It groups multi-disc and multi-version movies under one card, parses titles and years out of messy filenames, and offers real-time search across title, year, director, cast and rating. Hit play and the movie opens in your system player.",
+      "A Python/Flask backend with a vanilla JS frontend, complete with a pytest suite for the scanner."
+    ],
+    "features": [
+      "Recursive scan with smart filename → title/year parsing",
+      "TMDB metadata and posters with 3-tier caching",
+      "Groups multiple versions of the same movie",
+      "Real-time search including rating filters like \">7\"",
+      "One-click playback in the OS default player"
+    ],
+    "tags": [
+      "Python",
+      "Flask",
+      "TMDB API"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true
+  },
+  "ordspel": {
+    "title": "Bokstavsdrag",
+    "category": "game",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Reading and spelling for ages 6–8 — teaching letter sounds, not letter names",
+    "description": [
+      "Bokstavsdrag (\"Letter Drag\") is a Swedish reading and spelling game for kids aged 6–8, built around a pedagogical idea: children learn to read faster when they learn the sounds letters make rather than their names.",
+      "Kids drag letters to build words across three difficulty levels. Letter sounds are played through speech synthesis by default, but the game supports dropping in your own recorded phoneme MP3s for a more natural voice — a feature I documented so any parent can do it.",
+      "One self-contained HTML file, fully offline, designed tablet-first."
+    ],
+    "features": [
+      "Teaches Swedish letter sounds (phonemes), not letter names",
+      "Three difficulty levels from short to long words",
+      "Custom recorded letter sounds or built-in speech synthesis",
+      "Fully offline single-file game — tablet-first design"
+    ],
+    "tags": [
+      "JavaScript",
+      "Kids",
+      "Education",
+      "Swedish"
+    ],
+    "platform": "web",
+    "difficulty": "simple",
+    "curated": true
+  },
+  "pappersflygspelet": {
+    "title": "Pappersflyget",
+    "category": "game",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Glide a paper plane as far as you can — and watch out for the eagle",
+    "description": [
+      "Pappersflyget (\"The Paper Plane\") is an endless glider: hold to rise, release to dive, and keep a fragile paper plane in the air while obstacles stream past and an eagle takes an unhealthy interest in you.",
+      "Three difficulty modes change everything from wind gusts to obstacle density — from the calm \"Lugn bris\" to the chaotic \"Storm\" where the eagle actively hunts. Best distance is saved locally, and the whole game is a single HTML file that runs anywhere."
+    ],
+    "features": [
+      "One-touch glide physics — easy to learn, hard to master",
+      "Three difficulty modes with wind, gusts and a hunting eagle",
+      "Best-score persistence and a mobile-first fullscreen design",
+      "Single self-contained HTML file, no dependencies"
+    ],
+    "tags": [
+      "JavaScript",
+      "Canvas",
+      "Arcade"
+    ],
+    "platform": "web",
+    "difficulty": "simple",
+    "curated": true
+  },
+  "raknespel": {
+    "title": "Räknekul!",
+    "category": "game",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Counting, plus and minus for six-year-olds — with a Swedish voice that reads every task",
+    "description": [
+      "Räknekul! (\"Counting Fun!\") is a math game I made for kids around six who are just learning to count. Three modes — count the objects, add two groups, subtract — with a big friendly number pad so no keyboard is needed.",
+      "A Swedish voice reads every task aloud, right answers get cheerful audio praise, and ten correct answers in a row earn a confetti celebration. Playable directly in the browser, installable to the home screen, and free of any external dependencies."
+    ],
+    "features": [
+      "Three modes: counting, addition and subtraction (up to 10 or 20)",
+      "Swedish text-to-speech reads each task aloud",
+      "Large on-screen number pad — no keyboard needed",
+      "Confetti rewards and easy/hard levels",
+      "Works offline, installable on tablets"
+    ],
+    "tags": [
+      "JavaScript",
+      "Kids",
+      "Education",
+      "Swedish"
+    ],
+    "platform": "web",
+    "difficulty": "simple",
+    "curated": true
+  },
+  "relist": {
+    "title": "ReList",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Create once, reuse forever — checklist templates for groceries, packing and everything recurring",
+    "description": [
+      "ReList is built on one insight: most lists are the same list, over and over. So instead of rewriting your grocery list every week, you create a template once and spin off a fresh run each time — the original stays untouched, completed runs go to history.",
+      "It has grown into a full offline-first PWA: a shopping mode with giant text and wake lock for the store, a packing mode that sums weights, voice input, a barcode scanner backed by Open Food Facts, QR start links and self-contained template sharing.",
+      "There is even an optional AI assistant for generating templates — but everything works completely offline without any account or API key. Vanilla JavaScript, no build step, bilingual Swedish/English."
+    ],
+    "features": [
+      "Reusable templates: groceries, packing, car service, routines",
+      "Shopping mode with giant text and screen wake lock",
+      "Packing mode with per-item weights and totals",
+      "Voice input, barcode scanner and QR start links",
+      "Offline-first PWA with JSON export/import",
+      "Light/dark themes, six accent colors, Swedish + English"
+    ],
+    "tags": [
+      "JavaScript",
+      "PWA",
+      "Offline-first"
+    ],
+    "platform": "web",
+    "difficulty": "advanced",
+    "featured": true,
+    "curated": true
+  },
+  "robebox": {
+    "title": "Robebox",
+    "category": "app",
+    "status": "archived",
+    "statusLabel": "Superseded",
+    "tagline": "First-generation self-hosted music player — superseded by Robebox 2",
+    "description": [
+      "Robebox was my first take on replacing streaming subscriptions with my own MP3 collection: an ASP.NET Core API streaming a local library to a React PWA with a Spotify-style interface — artists, albums, search, queue, playlists, favorites and history.",
+      "It enriches artists with MusicBrainz metadata and cover art, streams over the LAN or remotely via Tailscale, and taught me everything about audio streaming, range requests and metadata pipelines that went into its successor.",
+      "Robebox is now archived: the ideas live on in Robebox 2, a complete TypeScript rewrite built for a 17,000-track collection."
+    ],
+    "features": [
+      "Range-request MP3 streaming from your own library",
+      "Artist/album browsing, search, queue and playlists",
+      "MusicBrainz enrichment with permanent caching",
+      "Remote listening via Tailscale"
+    ],
+    "tags": [
+      "ASP.NET Core",
+      "React",
+      "SQLite",
+      "MusicBrainz"
+    ],
+    "platform": "web",
+    "difficulty": "advanced",
+    "curated": true
+  },
+  "robebox2": {
+    "title": "Robebox 2",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "A self-hosted Spotify replacement for a 17,000-track collection — rebuilt from the ground up",
+    "description": [
+      "Robebox 2 is the deliberate rewrite of my music server, designed around one real collection: roughly 17,000 files on a NAS. A TypeScript monorepo with a Fastify API, React 19 SPA and SQLite via Drizzle — scanned, verified and serving the whole library with a production build around 118 kB gzipped.",
+      "It goes far beyond version 1: household profiles with PINs, Daily Mixes, radio mode and a Time Capsule powered by a fully offline recommendation engine, plus Robebox Connect — control playback on any device from any other device over Socket.IO, Spotify-Connect style.",
+      "There is an in-app tag editor with undo, automatic WMA transcoding through ffmpeg, a four-step cover art chain, and a NAS-safe scanner with prune protection so a disconnected drive never wipes the library."
+    ],
+    "features": [
+      "Full library on NAS: 17,000 tracks, 3,800+ artists, 151 imported playlists",
+      "Household profiles with PIN login",
+      "Daily Mixes, radio and Time Capsule — recommendations computed fully offline",
+      "Robebox Connect: cross-device playback control in real time",
+      "In-app tag editor with undo and WMA transcode cache",
+      "PWA with Media Session — works like a native player on mobile"
+    ],
+    "tags": [
+      "TypeScript",
+      "Fastify",
+      "React 19",
+      "SQLite",
+      "Socket.IO"
+    ],
+    "platform": "web",
+    "difficulty": "advanced",
+    "featured": true,
+    "curated": true
+  },
+  "robhousebuilder": {
+    "title": "RobHouseBuilder",
+    "category": "app",
+    "status": "in-development",
+    "tagline": "Sketch a house frame, get an exact lumber list — with an AI design assistant on the side",
+    "description": [
+      "RobHouseBuilder came out of planning a real build: I wanted to sketch a simple house frame and immediately know how much lumber to buy. You draw the plan view on a snap grid — walls, doors, windows — set the roof pitch with a slider, and watch the gable section update live.",
+      "The lumber math is deliberately deterministic: rafters, ridge, studs and battens are computed with plain formulas you can verify, and exported as CSV that opens correctly in Swedish Excel. The AI layer is kept on a leash — GPT-4o-mini can suggest design changes and gpt-image-1 can render your cottage, but the server validates and clamps everything so the numbers stay honest."
+    ],
+    "features": [
+      "Plan-view canvas with snap grid, inner walls, doors and windows",
+      "Live gable/truss section driven by width and roof pitch",
+      "Deterministic lumber formulas — the AI never touches the math",
+      "Grouped material list with CSV export for Swedish Excel",
+      "AI design suggestions and image rendering of the finished house"
+    ],
+    "tags": [
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "OpenAI API",
+      "Canvas"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "estimatedCompletion": "Working prototype — refinements ongoing",
+    "curated": true
+  },
+  "skafferimanager": {
+    "title": "SkafferiManager",
+    "category": "app",
+    "status": "in-development",
+    "tagline": "FIFO pantry management with barcode shopping mode and AI recipe ideas",
+    "description": [
+      "SkafferiManager keeps track of what is actually in the pantry: every item follows FIFO with expiry indicators, purchases sync intelligently against current stock, and an in-store shopping mode lets you scan barcodes and swap items as you shop.",
+      "Underneath is a three-project ASP.NET Core 9 solution with EF Core and SQLite, a GS1/EAN article catalog seeded with a real product dataset, interchangeable-article relationships that fold into stock math, and a REST API with Swagger. GPT-4o-mini chips in with article suggestions and recipe ideas based on what is about to expire."
+    ],
+    "features": [
+      "FIFO inventory with expiry tracking and item splitting",
+      "Smart purchase lists that sync against actual stock",
+      "Barcode-driven in-store shopping mode",
+      "GS1/EAN article catalog with interchangeable articles",
+      "AI-suggested recipes from soon-to-expire ingredients",
+      "REST API with Swagger and a full audit history"
+    ],
+    "tags": [
+      "ASP.NET Core",
+      "EF Core",
+      "SQLite",
+      "Bootstrap",
+      "OpenAI API"
+    ],
+    "platform": "web",
+    "difficulty": "advanced",
+    "estimatedCompletion": "Feature-complete — security hardening planned",
+    "curated": true
+  },
+  "vattenskoter-aventyret": {
+    "title": "Vattenskoteräventyret",
+    "category": "game",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Ride a jet ski from Hudiksvall harbor into the archipelago — dodge boats, collect stars",
+    "description": [
+      "Vattenskoteräventyret (\"The Jet Ski Adventure\") is a cheerful endless runner set on home waters: you ride a jet ski out of Hudiksvall harbor and into the archipelago, switching lanes and jumping over buoys, waves and rocks while boats and cliffs demand quick reactions.",
+      "It is deliberately kid-friendly — a friendly sea monster swims along, the speed ramps up gently, three hearts forgive mistakes and every thousand points earns confetti. One HTML file, touch controls, works on any tablet."
+    ],
+    "features": [
+      "Lane-switching and jumping with low and high obstacles",
+      "Gentle difficulty ramp with three hearts",
+      "A friendly sea monster companion",
+      "Local high score and confetti celebrations",
+      "Single-file game with tablet touch controls"
+    ],
+    "tags": [
+      "JavaScript",
+      "Canvas",
+      "Kids"
+    ],
+    "platform": "web",
+    "difficulty": "simple",
+    "curated": true
+  },
+  "vindrosanalys": {
+    "title": "VindrosAnalys",
+    "category": "app",
+    "status": "in-development",
+    "tagline": "A premium stock-analysis dashboard on live Börsdata — shorts, insiders, buybacks and more",
+    "description": [
+      "VindrosAnalys is my stock-analysis cockpit: a Blazor Server dashboard synced against the Börsdata API, presenting Nordic equities with advanced filtering, historical date navigation and per-stock deep dives — prices, estimates, P/E bands, reports, insider trades and calendars.",
+      "It handles the API politely with a sliding-window rate limiter and background price sync, tracks short positions and buybacks across the market, and can optionally run AI analysis on individual stocks. The whole thing wears a navy-and-gold dark theme and ships with Docker deployment and CI.",
+      "Recent work has focused on a proper mobile experience with two-step list/detail navigation."
+    ],
+    "features": [
+      "Live Börsdata sync with rate limiting and background updates",
+      "Filterable dashboard with historical date navigation",
+      "Per-stock details: prices, estimates, reports, insider trades",
+      "Short positions and buyback tracking across the market",
+      "Optional AI-generated stock analysis",
+      "Docker deployment with CI pipeline"
+    ],
+    "tags": [
+      "Blazor",
+      ".NET 10",
+      "MudBlazor",
+      "EF Core",
+      "Börsdata API"
+    ],
+    "platform": "web",
+    "difficulty": "advanced",
+    "featured": true,
+    "estimatedCompletion": "In active use — mobile polish ongoing",
+    "curated": true
+  },
+  "varmebesparingsapp": {
+    "title": "Gräddagar",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Was this month's heating bill high because of the weather? Degree-days know.",
+    "description": [
+      "A small tool that answers a very Swedish question: was the heating bill high because the house is wasteful, or just because it was cold? It compares a location's degree-days against the climate normal and translates the difference into estimated savings or extra cost.",
+      "Warmer-than-normal and colder-than-normal periods get clear color-coded indicators, so you can separate weather effects from real changes in consumption. One clean, mobile-first HTML file."
+    ],
+    "features": [
+      "Degree-day comparison against climate normals",
+      "Savings and extra-cost estimates in kronor",
+      "Color-coded warmer/colder indicators",
+      "Clean mobile-first design in a single file"
+    ],
+    "tags": [
+      "JavaScript",
+      "Energy",
+      "Data"
+    ],
+    "platform": "web",
+    "difficulty": "simple",
+    "curated": true
+  },
+  "balticcatch": {
+    "title": "Baltic Catch",
+    "category": "game",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "A kid-friendly fishing game set in the Baltic Sea",
+    "description": [
+      "Baltic Catch is a fishing game for kids set in the Baltic: drop your line, feel for the bite and reel in the local species. Designed to be playable everywhere — desktop, mobile or tablet — straight in the browser.",
+      "Like most of my games it is deliberately lightweight: plain HTML5 and JavaScript, no installs, no accounts, just fishing."
+    ],
+    "features": [
+      "Catch real Baltic Sea species",
+      "Simple one-touch fishing mechanics for kids",
+      "Playable on desktop, mobile and tablet",
+      "Runs directly in the browser — nothing to install"
+    ],
+    "tags": [
+      "JavaScript",
+      "Canvas",
+      "Kids"
+    ],
+    "platform": "web",
+    "difficulty": "simple",
+    "curated": true
+  },
+  "grillmastaren": {
+    "title": "Grillmästaren",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "A BBQ timer that knows core temperatures — and reminds you to let the meat rest",
+    "description": [
+      "Grillmästaren (\"The Grill Master\") is the app I wanted at the grill: pick your cut, pick your doneness, and get the right core temperature with a timer — including the resting phase people always skip.",
+      "It is one single HTML file you can bookmark on your phone and use next to the grill, no connection required once loaded."
+    ],
+    "features": [
+      "Core temperature guide per cut and doneness",
+      "Cooking timer plus a dedicated resting timer",
+      "Single HTML file — instant to load, works offline"
+    ],
+    "tags": [
+      "JavaScript",
+      "Cooking"
+    ],
+    "platform": "web",
+    "difficulty": "simple",
+    "curated": true
+  },
+  "robefit": {
+    "title": "RobeFit",
+    "category": "app",
+    "status": "in-development",
+    "tagline": "Calorie and nutrition tracking on the Swedish national food database, with AI photo logging",
+    "description": [
+      "RobeFit is my second-generation nutrition tracker, this time built on Livsmedelsverket's official Swedish food database for accurate local nutrition data instead of AI estimates alone. Photo logging with AI is still there — but now it matches against real database entries.",
+      "An ASP.NET Core 10 backend with a React 19 frontend, goal management and progress tracking. It carries forward everything I learned from Food Tracker."
+    ],
+    "features": [
+      "Livsmedelsverket food database for accurate Swedish nutrition data",
+      "AI photo logging matched against real database entries",
+      "Goal setting and progress tracking",
+      "ASP.NET Core 10 + React 19 stack"
+    ],
+    "tags": [
+      "ASP.NET Core",
+      "React 19",
+      "AI"
+    ],
+    "platform": "web",
+    "difficulty": "advanced",
+    "estimatedCompletion": "In active development",
+    "curated": true
+  },
+  "roberman": {
+    "title": "RoberMan",
+    "category": "game",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "90s disco Bomberman — drop the bass and the bombs",
+    "description": [
+      "RoberMan is Bomberman reimagined as a 90s eurodance fever dream: classic grid-based bomb tactics wrapped in disco colors with Web Audio-generated eurodance music pumping underneath.",
+      "The entire game lives in a single HTML file and is playable directly on GitHub Pages. Trap your opponents, kick bombs, grab power-ups — and try not to blow yourself up before the drop."
+    ],
+    "features": [
+      "Classic grid-based Bomberman tactics",
+      "Eurodance soundtrack generated with the Web Audio API",
+      "Power-ups, chain explosions and escalating rounds",
+      "Single HTML file, playable online instantly"
+    ],
+    "tags": [
+      "JavaScript",
+      "Canvas",
+      "WebAudio",
+      "Retro"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true
+  },
+  "flow-local": {
+    "title": "Flow Local",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Press a hotkey, speak, get clean text at your cursor — 100% local, no cloud",
+    "description": [
+      "Flow Local is dictation for Windows that never leaves your machine: press a global hotkey, speak in English or Swedish, and the text appears at your cursor — transcribed by faster-whisper and cleaned up by a local LLM through Ollama.",
+      "No cloud APIs, no subscriptions, no audio ever leaving the computer. Built for people who want to write with their voice without shipping their words to a datacenter."
+    ],
+    "features": [
+      "Global hotkey — dictate into any application",
+      "faster-whisper speech recognition for English and Swedish",
+      "Local LLM cleanup via Ollama: punctuation, casing, filler removal",
+      "Text pasted straight at the cursor",
+      "Completely offline — nothing leaves the machine"
+    ],
+    "tags": [
+      "Python",
+      "Whisper",
+      "Ollama",
+      "Local AI"
+    ],
+    "platform": "windows",
+    "difficulty": "intermediate",
+    "curated": true
+  },
+  "weight-converter": {
+    "title": "Weight Converter",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "A small, focused unit converter for weights",
+    "description": [
+      "A compact Python tool for converting between weight units — one of those utilities that does a single thing and gets out of the way. Kept public as a simple, readable example of a small finished project."
+    ],
+    "features": [
+      "Converts between common weight units",
+      "Minimal, readable Python"
+    ],
+    "tags": [
+      "Python",
+      "Utility"
+    ],
+    "platform": "cli",
+    "difficulty": "simple",
+    "curated": true
+  },
+  "picturesorter": {
+    "title": "PictureSorter",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Bring order to years of photo folders — automatically",
+    "description": [
+      "PictureSorter is a C# desktop utility born from a very real problem: years of camera dumps and phone backups scattered across folders. It sorts photo collections into a clean structure automatically, so the family archive is browsable again."
+    ],
+    "features": [
+      "Automatic sorting of large photo collections",
+      "C# desktop application for Windows"
+    ],
+    "tags": [
+      "C#",
+      "Windows",
+      "Utility"
+    ],
+    "platform": "windows",
+    "difficulty": "simple",
+    "curated": true
+  },
+  "kajak-race": {
+    "title": "Kajak Race",
+    "category": "game",
+    "status": "planning",
+    "statusLabel": "Planning",
+    "tagline": "An upcoming kayak racing game — paddle for the finish line",
+    "description": [
+      "The next game on the drawing board: kayak racing in the browser. Early planning stage — expect the same recipe as my other games: zero dependencies, touch-first controls and something the kids will actually want to play."
+    ],
+    "features": [],
+    "tags": ["Game", "Concept"],
+    "platform": "web",
+    "difficulty": "simple",
+    "curated": true
+  }
+}

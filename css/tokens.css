@@ -1,0 +1,38 @@
+/* erlandsson.online — brand kit tokens (source: Design.png) */
+:root {
+  /* Palette */
+  --bg: #090B10;
+  --surface: #121722;
+  --surface-2: #0D1119;
+  --primary: #3BA8FF;
+  --teal: #2EF2D4;
+  --purple: #7A6BFF;
+  --muted: #AAB4C5;
+  --fg: #F6F8FA;
+
+  /* Status */
+  --status-live: #3DDC84;
+  --status-dev: #FFC53D;
+  --status-plan: #FFC53D;
+  --status-paused: #AAB4C5;
+  --status-archived: #6B7486;
+
+  /* Typography */
+  --font-display: 'Orbitron', sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Effects */
+  --glow-blue: 0 0 18px rgba(59, 168, 255, 0.35);
+  --glow-teal: 0 0 18px rgba(46, 242, 212, 0.30);
+  --glow-purple: 0 0 18px rgba(122, 107, 255, 0.30);
+  --border-dim: 1px solid rgba(59, 168, 255, 0.16);
+  --border-bright: 1px solid rgba(59, 168, 255, 0.55);
+
+  /* Layout */
+  --radius: 14px;
+  --radius-sm: 8px;
+  --content-max: 1180px;
+  --nav-height: 64px;
+  --transition: 0.25s ease;
+}

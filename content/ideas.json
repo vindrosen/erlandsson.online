@@ -1,0 +1,19 @@
+[
+  {
+    "slug": "garden-planner-ai",
+    "title": "Garden Planner AI",
+    "tagline": "Plan your garden with AI and augmented-reality overlays",
+    "description": [
+      "A concept for a web app that helps you plan what to grow, where and when. Point your camera at a garden bed and see AI-suggested planting layouts as augmented-reality overlays, tuned to your climate zone and the Swedish growing season.",
+      "Still on the drawing board — the goal is to combine plant databases, local weather data and image recognition into a planner that feels like a garden designer in your pocket."
+    ],
+    "features": [
+      "AI-generated planting suggestions per climate zone",
+      "AR overlay preview of beds and layouts",
+      "Season calendar with sowing and harvest reminders"
+    ],
+    "tags": ["AI", "AR", "Concept"],
+    "status": "planning",
+    "priority": 1
+  }
+]

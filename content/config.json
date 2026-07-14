@@ -1,0 +1,36 @@
+{
+  "githubUser": "vindrosen",
+  "scanRoot": "..",
+  "excludeFolders": [
+    "Erlandsson.online",
+    "assets",
+    "bildgen-mcp",
+    ".claude",
+    ".pytest_cache"
+  ],
+  "excludeRepos": [
+    "Assignment*",
+    "Assignemnt*",
+    "Programming-in-C-*",
+    "Java-Lule-2025",
+    "DA556C-Programmering-i-Java",
+    "LTU-Real-Estate-Assignment",
+    "Lule-Airport-Parking-lot",
+    "RandomNumbers",
+    "DiceGame",
+    "C-L0002B-Lule",
+    "skills-introduction-to-github",
+    "Stock",
+    "StockApp",
+    "CalorieHunter",
+    "DrinksHubApp---Full-Stack-Blazor-Web-Application",
+    "GTIN-EANSearch",
+    "CoopWebScraper",
+    "ExcalBolagSammanst-llning"
+  ],
+  "aliases": {
+    "Disco-bowling": "disco-bowl-neon-strike",
+    "Vindros": "VindrosAnalys"
+  },
+  "now": {}
+}
