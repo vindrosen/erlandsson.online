@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-14T09:57:27.638Z",
+  "generatedAt": "2026-07-17T11:46:41.906Z",
   "counts": {
-    "total": 26,
+    "total": 31,
     "games": 11,
-    "apps": 14,
+    "apps": 19,
     "ideas": 1,
-    "live": 18
+    "live": 23
   },
   "now": {
     "current": {
@@ -18,16 +18,64 @@
       "overridden": false
     },
     "newApp": {
-      "slug": "relist",
+      "slug": "jaktlexikon",
       "overridden": false
     },
     "nextIdea": {
       "slug": "idea-garden-planner-ai",
       "overridden": false
     },
-    "projectCount": 26
+    "projectCount": 31
   },
   "projects": [
+    {
+      "slug": "2taktblandning",
+      "title": "2Takt Blandning",
+      "category": "app",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "Get the two-stroke fuel mix right — every time",
+      "description": [
+        "Old two-stroke engines on boats, jet skis and mopeds need the right oil-to-petrol ratio — get it wrong and you either wear the engine or foul the plugs. 2Takt Blandning turns the sums into a couple of taps: pick your jerrycan, pick your percentage, read the exact amount of oil.",
+        "It's a mobile-first PWA styled after the Swedish archipelago, built to be used standing on the jetty next to the tank."
+      ],
+      "features": [
+        "Exact oil amount for any tank size and mix ratio",
+        "Mobile-first and installable as a PWA",
+        "Swedish archipelago look — calm, readable, offline-friendly"
+      ],
+      "tags": [
+        "React",
+        "PWA",
+        "TypeScript"
+      ],
+      "platform": "web",
+      "difficulty": "simple",
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": "assets/art/2taktblandning.webp",
+      "links": {
+        "github": "https://github.com/vindrosen/2TaktBlandning",
+        "githubPrivate": false,
+        "demo": "https://vindrosen.github.io/2TaktBlandning/"
+      },
+      "detected": {
+        "hasLocal": false,
+        "localFolder": null,
+        "hasGitHub": true,
+        "repoName": "2TaktBlandning",
+        "visibility": "PUBLIC",
+        "primaryLanguage": "TypeScript",
+        "techStack": [
+          "TypeScript"
+        ],
+        "manifests": [],
+        "lastLocalCommit": null,
+        "lastPushed": "2026-07-16",
+        "lastActivity": "2026-07-16"
+      },
+      "curated": true
+    },
     {
       "slug": "balticcatch",
       "title": "Baltic Catch",
@@ -48,8 +96,7 @@
       "tags": [
         "JavaScript",
         "Canvas",
-        "Kids",
-        "HTML"
+        "Kids"
       ],
       "platform": "web",
       "difficulty": "simple",
@@ -62,17 +109,19 @@
         "demo": "https://vindrosen.github.io/BalticCatch/"
       },
       "detected": {
-        "hasLocal": false,
-        "localFolder": null,
+        "hasLocal": true,
+        "localFolder": "BalticCatch",
         "hasGitHub": true,
         "repoName": "BalticCatch",
         "visibility": "PUBLIC",
         "primaryLanguage": "HTML",
         "techStack": [
-          "HTML"
+          "JavaScript"
         ],
-        "manifests": [],
-        "lastLocalCommit": null,
+        "manifests": [
+          "index.html"
+        ],
+        "lastLocalCommit": "2026-07-12",
         "lastPushed": "2026-07-12",
         "lastActivity": "2026-07-12"
       },
@@ -223,8 +272,8 @@
         "demo": "https://vindrosen.github.io/disco-bowl-neon-strike/"
       },
       "detected": {
-        "hasLocal": true,
-        "localFolder": "Disco-bowling",
+        "hasLocal": false,
+        "localFolder": null,
         "hasGitHub": true,
         "repoName": "disco-bowl-neon-strike",
         "visibility": "PUBLIC",
@@ -232,10 +281,8 @@
         "techStack": [
           "JavaScript"
         ],
-        "manifests": [
-          "index.html"
-        ],
-        "lastLocalCommit": "2026-07-13",
+        "manifests": [],
+        "lastLocalCommit": null,
         "lastPushed": "2026-07-13",
         "lastActivity": "2026-07-13"
       },
@@ -263,7 +310,8 @@
         "Python",
         "Whisper",
         "Ollama",
-        "Local AI"
+        "Local AI",
+        "Flask"
       ],
       "platform": "windows",
       "difficulty": "intermediate",
@@ -276,17 +324,20 @@
         "demo": ""
       },
       "detected": {
-        "hasLocal": false,
-        "localFolder": null,
+        "hasLocal": true,
+        "localFolder": "whisperflow-local",
         "hasGitHub": true,
         "repoName": "flow-local",
         "visibility": "PRIVATE",
         "primaryLanguage": "Python",
         "techStack": [
-          "Python"
+          "Python",
+          "Flask"
         ],
-        "manifests": [],
-        "lastLocalCommit": null,
+        "manifests": [
+          "pyproject.toml"
+        ],
+        "lastLocalCommit": "2026-07-09",
         "lastPushed": "2026-07-09",
         "lastActivity": "2026-07-09"
       },
@@ -356,6 +407,56 @@
       "curated": true
     },
     {
+      "slug": "futurenest",
+      "title": "FutureNest",
+      "category": "app",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "See what fund fees really cost your savings over time",
+      "description": [
+        "FutureNest visualises the question every saver should ask: what does the yearly fund fee actually cost me? Set your monthly amount, horizon and fee, and it charts how the fee eats into compound growth over the years — and how much more you would keep with a cheaper alternative.",
+        "The whole app is a single HTML file with no dependencies: open it, drag the sliders, watch the curves move."
+      ],
+      "features": [
+        "Interactive chart of savings growth with and without fees",
+        "Shows the total cost of a fee over the full horizon",
+        "Single HTML file — nothing to install, no accounts",
+        "All calculations run locally in the browser"
+      ],
+      "tags": [
+        "Finance",
+        "JavaScript"
+      ],
+      "platform": "web",
+      "difficulty": "simple",
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": "assets/art/futurenest.webp",
+      "links": {
+        "github": null,
+        "githubPrivate": false,
+        "demo": null
+      },
+      "detected": {
+        "hasLocal": true,
+        "localFolder": "FutureNest",
+        "hasGitHub": false,
+        "repoName": null,
+        "visibility": null,
+        "primaryLanguage": null,
+        "techStack": [
+          "JavaScript"
+        ],
+        "manifests": [
+          "index.html"
+        ],
+        "lastLocalCommit": "2026-07-02",
+        "lastPushed": null,
+        "lastActivity": "2026-07-02"
+      },
+      "curated": true
+    },
+    {
       "slug": "grillmastaren",
       "title": "Grillmästaren",
       "category": "app",
@@ -373,8 +474,7 @@
       ],
       "tags": [
         "JavaScript",
-        "Cooking",
-        "HTML"
+        "Cooking"
       ],
       "platform": "web",
       "difficulty": "simple",
@@ -387,17 +487,19 @@
         "demo": "https://vindrosen.github.io/grillmastaren/"
       },
       "detected": {
-        "hasLocal": false,
-        "localFolder": null,
+        "hasLocal": true,
+        "localFolder": "GrillMästaren",
         "hasGitHub": true,
         "repoName": "grillmastaren",
         "visibility": "PUBLIC",
         "primaryLanguage": "HTML",
         "techStack": [
-          "HTML"
+          "JavaScript"
         ],
-        "manifests": [],
-        "lastLocalCommit": null,
+        "manifests": [
+          "index.html"
+        ],
+        "lastLocalCommit": "2026-07-12",
         "lastPushed": "2026-07-12",
         "lastActivity": "2026-07-12"
       },
@@ -450,6 +552,56 @@
       "curated": true
     },
     {
+      "slug": "jaktlexikon",
+      "title": "Sveriges Jaktlexikon",
+      "category": "app",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "A Swedish hunting encyclopedia that answers: may I hunt today?",
+      "description": [
+        "Sveriges Jaktlexikon (\"Sweden's Hunting Encyclopedia\") gathers the huntable Swedish species in one fast app: identification, tracks, droppings, antlers, reproduction, range and curiosities, each with its own image gallery.",
+        "The part I care most about is the season engine: pick your county and a date and it answers \"may I hunt today?\" — green cards for open seasons, red for protected, with licence-hunt species flagged. The season data is fact-checked against the Swedish hunting regulation at county level."
+      ],
+      "features": [
+        "Species pages with galleries and expandable fact sections",
+        "\"May I hunt today?\" — answered per county and date",
+        "Month-by-month season calendar for every species",
+        "Search, favourites and no login — data stays in your browser"
+      ],
+      "tags": [
+        "Hunting",
+        "JavaScript"
+      ],
+      "platform": "web",
+      "difficulty": "intermediate",
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": "assets/art/jaktlexikon.webp",
+      "links": {
+        "github": "https://github.com/vindrosen/jaktlexikon",
+        "githubPrivate": false,
+        "demo": "https://vindrosen.github.io/jaktlexikon/"
+      },
+      "detected": {
+        "hasLocal": true,
+        "localFolder": "Sveriges Jaktlexikon",
+        "hasGitHub": true,
+        "repoName": "jaktlexikon",
+        "visibility": "PUBLIC",
+        "primaryLanguage": "JavaScript",
+        "techStack": [
+          "JavaScript"
+        ],
+        "manifests": [
+          "index.html"
+        ],
+        "lastLocalCommit": "2026-07-17",
+        "lastPushed": "2026-07-17",
+        "lastActivity": "2026-07-17"
+      },
+      "curated": true
+    },
+    {
       "slug": "kajak-race",
       "title": "Kajak Race",
       "category": "game",
@@ -495,6 +647,62 @@
       "curated": true
     },
     {
+      "slug": "kubik",
+      "title": "Kubik",
+      "category": "app",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "See how big a cubic metre really is",
+      "description": [
+        "Kubik answers a deceptively simple question: how much is a cubic metre, really? Pick a material — water, firewood, gravel, sand, soil or concrete — and a volume from 0.1 to 100 m³, and it renders it to scale next to people, cars, garages and houses, with weight and real measurements.",
+        "It also untangles the Swedish firewood measures — solid, stacked and loose cubic metres — that confuse every first-time firewood buyer. Favourites, dark mode, shareable URLs and a print-friendly view included."
+      ],
+      "features": [
+        "Scale-true visualisation of any volume from 0.1 to 100 m³",
+        "Six materials with weight per m³, uses and trivia",
+        "Explains the three Swedish firewood measures",
+        "Ready-made examples in wheelbarrows, trailer loads and truck loads"
+      ],
+      "tags": [
+        "Visualization",
+        "React",
+        "Vite",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "platform": "web",
+      "difficulty": "intermediate",
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": "assets/art/kubik.webp",
+      "links": {
+        "github": "https://github.com/vindrosen/Kubik",
+        "githubPrivate": false,
+        "demo": "https://vindrosen.github.io/Kubik/"
+      },
+      "detected": {
+        "hasLocal": true,
+        "localFolder": "Kubik",
+        "hasGitHub": true,
+        "repoName": "Kubik",
+        "visibility": "PUBLIC",
+        "primaryLanguage": "TypeScript",
+        "techStack": [
+          "React",
+          "Vite",
+          "TypeScript",
+          "Tailwind CSS"
+        ],
+        "manifests": [
+          "package.json"
+        ],
+        "lastLocalCommit": "2026-07-16",
+        "lastPushed": "2026-07-16",
+        "lastActivity": "2026-07-16"
+      },
+      "curated": true
+    },
+    {
       "slug": "missile-command",
       "title": "Missile Command",
       "category": "game",
@@ -529,20 +737,17 @@
         "demo": "https://vindrosen.github.io/missile-command/"
       },
       "detected": {
-        "hasLocal": true,
-        "localFolder": "Missile Command",
+        "hasLocal": false,
+        "localFolder": null,
         "hasGitHub": true,
         "repoName": "missile-command",
         "visibility": "PUBLIC",
         "primaryLanguage": "JavaScript",
         "techStack": [
-          "PWA",
           "JavaScript"
         ],
-        "manifests": [
-          "index.html"
-        ],
-        "lastLocalCommit": "2026-07-11",
+        "manifests": [],
+        "lastLocalCommit": null,
         "lastPushed": "2026-07-11",
         "lastActivity": "2026-07-11"
       },
@@ -590,13 +795,10 @@
         "visibility": "PUBLIC",
         "primaryLanguage": "Python",
         "techStack": [
-          "Python",
-          "Flask"
+          "Python"
         ],
-        "manifests": [
-          "requirements.txt"
-        ],
-        "lastLocalCommit": "2026-07-07",
+        "manifests": [],
+        "lastLocalCommit": "2026-04-04",
         "lastPushed": "2026-07-07",
         "lastActivity": "2026-07-07"
       },
@@ -652,6 +854,61 @@
         "lastLocalCommit": null,
         "lastPushed": null,
         "lastActivity": "2026-07-10"
+      },
+      "curated": true
+    },
+    {
+      "slug": "ostersjons-fiskar",
+      "title": "Östersjöns Fiskar",
+      "category": "app",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "A field guide to the Baltic Sea's most common fish",
+      "description": [
+        "Östersjöns Fiskar (\"Fishes of the Baltic\") is a guide to the 14 most common species in the Baltic Sea — their lives, habitats, spawning periods and how to fish them responsibly — plus the invasive species currently spreading through the sea.",
+        "Built with Next.js and Tailwind and pre-rendered to a fully static site: no servers, instant pages, and adding a new species is just adding one JSON file."
+      ],
+      "features": [
+        "14 species with habitat, spawning and responsible-fishing guidance",
+        "Covers the invasive species on the rise in the Baltic",
+        "Statically pre-rendered — fast, serverless and free to host",
+        "New species = one JSON file"
+      ],
+      "tags": [
+        "Next.js",
+        "Fishing",
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "platform": "web",
+      "difficulty": "intermediate",
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": "assets/art/ostersjons-fiskar.webp",
+      "links": {
+        "github": "https://github.com/vindrosen/ostersjons-fiskar",
+        "githubPrivate": false,
+        "demo": "https://vindrosen.github.io/ostersjons-fiskar/"
+      },
+      "detected": {
+        "hasLocal": true,
+        "localFolder": "Östersjöfiskar",
+        "hasGitHub": true,
+        "repoName": "ostersjons-fiskar",
+        "visibility": "PUBLIC",
+        "primaryLanguage": "TypeScript",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS"
+        ],
+        "manifests": [
+          "package.json"
+        ],
+        "lastLocalCommit": "2026-07-17",
+        "lastPushed": "2026-07-17",
+        "lastActivity": "2026-07-17"
       },
       "curated": true
     },
@@ -736,8 +993,8 @@
         "demo": null
       },
       "detected": {
-        "hasLocal": false,
-        "localFolder": null,
+        "hasLocal": true,
+        "localFolder": "PictureSorter",
         "hasGitHub": true,
         "repoName": "PictureSorter",
         "visibility": "PUBLIC",
@@ -745,8 +1002,10 @@
         "techStack": [
           "C#"
         ],
-        "manifests": [],
-        "lastLocalCommit": null,
+        "manifests": [
+          "PictureSorter.csproj"
+        ],
+        "lastLocalCommit": "2025-12-27",
         "lastPushed": "2025-12-27",
         "lastActivity": "2025-12-27"
       },
@@ -774,7 +1033,8 @@
         "JavaScript",
         "Kids",
         "Education",
-        "Swedish"
+        "Swedish",
+        "HTML"
       ],
       "platform": "web",
       "difficulty": "simple",
@@ -787,21 +1047,19 @@
         "demo": "https://vindrosen.github.io/RakneSpel/"
       },
       "detected": {
-        "hasLocal": true,
-        "localFolder": "RakneSpel",
+        "hasLocal": false,
+        "localFolder": null,
         "hasGitHub": true,
         "repoName": "RakneSpel",
         "visibility": "PUBLIC",
         "primaryLanguage": "HTML",
         "techStack": [
-          "JavaScript"
+          "HTML"
         ],
-        "manifests": [
-          "index.html"
-        ],
-        "lastLocalCommit": "2026-07-11",
+        "manifests": [],
+        "lastLocalCommit": null,
         "lastPushed": "2026-07-10",
-        "lastActivity": "2026-07-11"
+        "lastActivity": "2026-07-10"
       },
       "curated": true
     },
@@ -1019,7 +1277,14 @@
         "ASP.NET Core",
         "React 19",
         "AI",
-        "C#"
+        "C#",
+        ".NET 10",
+        "EF Core",
+        "SQLite",
+        "React",
+        "Vite",
+        "TypeScript",
+        "Tailwind CSS"
       ],
       "platform": "web",
       "difficulty": "advanced",
@@ -1032,19 +1297,34 @@
         "demo": ""
       },
       "detected": {
-        "hasLocal": false,
-        "localFolder": null,
+        "hasLocal": true,
+        "localFolder": "RobeFit",
         "hasGitHub": true,
         "repoName": "RobeFit",
         "visibility": "PRIVATE",
         "primaryLanguage": "C#",
         "techStack": [
-          "C#"
+          "C#",
+          ".NET 10",
+          "ASP.NET Core",
+          "EF Core",
+          "SQLite",
+          "React",
+          "Vite",
+          "TypeScript",
+          "Tailwind CSS"
         ],
-        "manifests": [],
-        "lastLocalCommit": null,
+        "manifests": [
+          "src/RobeFit.Api/RobeFit.Api.csproj",
+          "src/RobeFit.Core/RobeFit.Core.csproj",
+          "src/RobeFit.Data/RobeFit.Data.csproj",
+          "src/RobeFit.DataImport/RobeFit.DataImport.csproj",
+          "tests/RobeFit.Core.Tests/RobeFit.Core.Tests.csproj",
+          "web/package.json"
+        ],
+        "lastLocalCommit": "2026-07-10",
         "lastPushed": "2026-07-09",
-        "lastActivity": "2026-07-09"
+        "lastActivity": "2026-07-10"
       },
       "curated": true
     },
@@ -1069,8 +1349,7 @@
         "JavaScript",
         "Canvas",
         "WebAudio",
-        "Retro",
-        "HTML"
+        "Retro"
       ],
       "platform": "web",
       "difficulty": "intermediate",
@@ -1083,17 +1362,20 @@
         "demo": "https://vindrosen.github.io/RoberMan/"
       },
       "detected": {
-        "hasLocal": false,
-        "localFolder": null,
+        "hasLocal": true,
+        "localFolder": "RoberMan",
         "hasGitHub": true,
         "repoName": "RoberMan",
         "visibility": "PUBLIC",
         "primaryLanguage": "HTML",
         "techStack": [
-          "HTML"
+          "JavaScript"
         ],
-        "manifests": [],
-        "lastLocalCommit": null,
+        "manifests": [
+          "index.html",
+          "RoberMan.html"
+        ],
+        "lastLocalCommit": "2026-07-09",
         "lastPushed": "2026-07-09",
         "lastActivity": "2026-07-09"
       },
@@ -1211,7 +1493,7 @@
           "SkafferiManager.Tests/SkafferiManager.Tests.csproj",
           "SkafferiManager.Web/SkafferiManager.Web.csproj"
         ],
-        "lastLocalCommit": "2026-01-24",
+        "lastLocalCommit": "2026-04-05",
         "lastPushed": "2026-04-05",
         "lastActivity": "2026-04-05"
       },
@@ -1362,7 +1644,7 @@
       },
       "detected": {
         "hasLocal": true,
-        "localFolder": "Vindros",
+        "localFolder": "VindrosAnalys",
         "hasGitHub": true,
         "repoName": "VindrosAnalys",
         "visibility": "PRIVATE",

@@ -651,7 +651,126 @@
       "The next game on the drawing board: kayak racing in the browser. Early planning stage — expect the same recipe as my other games: zero dependencies, touch-first controls and something the kids will actually want to play."
     ],
     "features": [],
-    "tags": ["Game", "Concept"],
+    "tags": [
+      "Game",
+      "Concept"
+    ],
+    "platform": "web",
+    "difficulty": "simple",
+    "curated": true
+  },
+  "futurenest": {
+    "title": "FutureNest",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "See what fund fees really cost your savings over time",
+    "description": [
+      "FutureNest visualises the question every saver should ask: what does the yearly fund fee actually cost me? Set your monthly amount, horizon and fee, and it charts how the fee eats into compound growth over the years — and how much more you would keep with a cheaper alternative.",
+      "The whole app is a single HTML file with no dependencies: open it, drag the sliders, watch the curves move."
+    ],
+    "features": [
+      "Interactive chart of savings growth with and without fees",
+      "Shows the total cost of a fee over the full horizon",
+      "Single HTML file — nothing to install, no accounts",
+      "All calculations run locally in the browser"
+    ],
+    "tags": [
+      "Finance"
+    ],
+    "platform": "web",
+    "difficulty": "simple",
+    "curated": true
+  },
+  "kubik": {
+    "title": "Kubik",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "See how big a cubic metre really is",
+    "description": [
+      "Kubik answers a deceptively simple question: how much is a cubic metre, really? Pick a material — water, firewood, gravel, sand, soil or concrete — and a volume from 0.1 to 100 m³, and it renders it to scale next to people, cars, garages and houses, with weight and real measurements.",
+      "It also untangles the Swedish firewood measures — solid, stacked and loose cubic metres — that confuse every first-time firewood buyer. Favourites, dark mode, shareable URLs and a print-friendly view included."
+    ],
+    "features": [
+      "Scale-true visualisation of any volume from 0.1 to 100 m³",
+      "Six materials with weight per m³, uses and trivia",
+      "Explains the three Swedish firewood measures",
+      "Ready-made examples in wheelbarrows, trailer loads and truck loads"
+    ],
+    "tags": [
+      "Visualization"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true
+  },
+  "jaktlexikon": {
+    "title": "Sveriges Jaktlexikon",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "A Swedish hunting encyclopedia that answers: may I hunt today?",
+    "description": [
+      "Sveriges Jaktlexikon (\"Sweden's Hunting Encyclopedia\") gathers the huntable Swedish species in one fast app: identification, tracks, droppings, antlers, reproduction, range and curiosities, each with its own image gallery.",
+      "The part I care most about is the season engine: pick your county and a date and it answers \"may I hunt today?\" — green cards for open seasons, red for protected, with licence-hunt species flagged. The season data is fact-checked against the Swedish hunting regulation at county level."
+    ],
+    "features": [
+      "Species pages with galleries and expandable fact sections",
+      "\"May I hunt today?\" — answered per county and date",
+      "Month-by-month season calendar for every species",
+      "Search, favourites and no login — data stays in your browser"
+    ],
+    "tags": [
+      "Hunting"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true
+  },
+  "ostersjons-fiskar": {
+    "title": "Östersjöns Fiskar",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "A field guide to the Baltic Sea's most common fish",
+    "description": [
+      "Östersjöns Fiskar (\"Fishes of the Baltic\") is a guide to the 14 most common species in the Baltic Sea — their lives, habitats, spawning periods and how to fish them responsibly — plus the invasive species currently spreading through the sea.",
+      "Built with Next.js and Tailwind and pre-rendered to a fully static site: no servers, instant pages, and adding a new species is just adding one JSON file."
+    ],
+    "features": [
+      "14 species with habitat, spawning and responsible-fishing guidance",
+      "Covers the invasive species on the rise in the Baltic",
+      "Statically pre-rendered — fast, serverless and free to host",
+      "New species = one JSON file"
+    ],
+    "tags": [
+      "Next.js",
+      "Fishing"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true
+  },
+  "2taktblandning": {
+    "title": "2Takt Blandning",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Get the two-stroke fuel mix right — every time",
+    "description": [
+      "Old two-stroke engines on boats, jet skis and mopeds need the right oil-to-petrol ratio — get it wrong and you either wear the engine or foul the plugs. 2Takt Blandning turns the sums into a couple of taps: pick your jerrycan, pick your percentage, read the exact amount of oil.",
+      "It's a mobile-first PWA styled after the Swedish archipelago, built to be used standing on the jetty next to the tank."
+    ],
+    "features": [
+      "Exact oil amount for any tank size and mix ratio",
+      "Mobile-first and installable as a PWA",
+      "Swedish archipelago look — calm, readable, offline-friendly"
+    ],
+    "tags": [
+      "React",
+      "PWA"
+    ],
     "platform": "web",
     "difficulty": "simple",
     "curated": true

@@ -231,6 +231,8 @@ function findArt(slug) {
 }
 
 async function build() {
+  const previous = existsSync(OUTPUT_PATH) ? readJson(OUTPUT_PATH) : { projects: [] };
+  const prevBySlug = new Map(previous.projects.map((p) => [p.slug, p]));
   const locals = scanLocal();
   const repos = fetchGitHub();
   const repoByName = new Map(repos.map((r) => [r.name.toLowerCase(), r]));
@@ -321,6 +323,40 @@ async function build() {
       detected,
       curated: ov.curated !== false,
     });
+  }
+
+  // Curated projects whose local folder / repo has vanished (e.g. the scan now
+  // runs from another machine): keep them, reusing the previous run's detected
+  // facts and links so they never silently drop off the site.
+  const seen = new Set(projects.map((p) => p.slug));
+  for (const [slug, ov] of Object.entries(overrides)) {
+    if (seen.has(slug) || ov.hidden) continue;
+    const prev = prevBySlug.get(slug);
+    const detected = prev?.detected ?? {
+      hasLocal: false, localFolder: null, hasGitHub: false, repoName: null,
+      visibility: null, primaryLanguage: null, techStack: [], manifests: [],
+      lastLocalCommit: null, lastPushed: null, lastActivity: null,
+    };
+    projects.push({
+      slug,
+      title: ov.title,
+      category: ov.category,
+      status: ov.status,
+      statusLabel: ov.statusLabel ?? null,
+      tagline: ov.tagline,
+      description: ov.description ?? [],
+      features: ov.features ?? [],
+      tags: [...new Set([...(ov.tags ?? []), ...detected.techStack])],
+      platform: ov.platform ?? 'web',
+      difficulty: ov.difficulty ?? null,
+      estimatedCompletion: ov.estimatedCompletion ?? null,
+      featured: ov.featured ?? false,
+      art: findArt(slug),
+      links: prev?.links ?? { github: null, githubPrivate: false, demo: ov.demo ?? null },
+      detected,
+      curated: ov.curated !== false,
+    });
+    console.log(`NOTE: '${slug}' has no local folder or GitHub repo — kept from previous data.`);
   }
 
   // Ideas (curated-only entries)

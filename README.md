@@ -41,8 +41,8 @@ node tools/discover.mjs      # rescans local + GitHub, rewrites data/projects.js
   save as `art/<slug>.webp`, then re-encode into the site:
 
   ```powershell
-  # from Utveckling\ — bildgen saves to assets\generated\
-  & "Robebox2\node_modules\ffmpeg-static\ffmpeg.exe" -y -i "assets\generated\art\<slug>.webp" -c:v libwebp -q:v 82 "Erlandsson.online\assets\art\<slug>.webp"
+  # from Utveckling\ — bildgen saves to assets\generated\ (sharp borrowed from Östersjöfiskar)
+  node -e "require('./Östersjöfiskar/node_modules/sharp')('assets/generated/art/<slug>.webp').webp({quality:82}).toFile('erlandsson.online/assets/art/<slug>.webp')"
   ```
 
   Shared style phrase for consistent art:
