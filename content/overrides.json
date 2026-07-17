@@ -774,5 +774,50 @@
     "platform": "web",
     "difficulty": "simple",
     "curated": true
+  },
+  "slumpa": {
+    "title": "Slumpa",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Every random picker you need — dice, wheels, cards and draws in one PWA",
+    "description": [
+      "Slumpa (\"Randomize\") collects the everyday randomness tools in one Swedish PWA: dice from D4 to D100, drawing straws, raffle tickets, a wheel of fortune, a full 52-card deck, name pickers, number ranges and option choosers — for games, classrooms, clubs and settling arguments.",
+      "Everything stays on the device: saved lists and history live in localStorage, the randomness comes from crypto.getRandomValues with rejection sampling, and every sound effect is synthesised with WebAudio — there is not a single audio file in the bundle."
+    ],
+    "features": [
+      "Eight tools: dice, straws, raffle, wheel, cards, names, numbers, options",
+      "History with one-tap re-roll and saved reusable lists",
+      "Installable PWA with offline support, dark mode and Swedish/English",
+      "Fair randomness via crypto.getRandomValues — no data leaves the device"
+    ],
+    "tags": [
+      "PWA",
+      "Next.js"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true
+  },
+  "farjagdra": {
+    "title": "FårJagDra",
+    "category": "app",
+    "status": "in-development",
+    "tagline": "May I tow this? Checks your car + trailer against Swedish licence rules",
+    "description": [
+      "FårJagDra (\"May I Tow?\") answers a question every trailer owner in Sweden has fumbled with: may this car pull this trailer on a plain B licence, or does it take B96 or BE? Enter two registration numbers and the rule engine checks the weights and gives a verdict with the reasoning spelled out.",
+      "The MVP is live and runs on mock vehicle data while the registry API integration is pending — the unit-tested rule engine sits behind an async service, built to swap in the real data source without touching the UI."
+    ],
+    "features": [
+      "Checks a car + trailer combination against B, B96 and BE rules",
+      "Explains the verdict — which weight limit decides and why",
+      "Unit-tested rule engine, ready to swap mock data for a real registry API"
+    ],
+    "tags": [
+      "Utility"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true
   }
 }
