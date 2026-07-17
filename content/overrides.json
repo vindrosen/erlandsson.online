@@ -644,16 +644,22 @@
   "kajak-race": {
     "title": "Kajak Race",
     "category": "game",
-    "status": "planning",
-    "statusLabel": "Planning",
-    "tagline": "An upcoming kayak racing game — paddle for the finish line",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Rhythm-paddling kayak racing in the Hudiksvall archipelago",
     "description": [
-      "The next game on the drawing board: kayak racing in the browser. Early planning stage — expect the same recipe as my other games: zero dependencies, touch-first controls and something the kids will actually want to play."
+      "Kajak Race went from drawing board to finish line: a fast, colourful arcade kayak race set in the Hudiksvall archipelago. The controls are the whole game — you paddle by alternating two keys in an even rhythm, paddle harder on one side to steer, and if you just mash the keys you catch a crab and wobble.",
+      "Race two players on one keyboard against AI rivals across three tracks with different weather, dodging seals, swans, logs, jet skis and the angry gulls that go after the leader. Like my other games it is a single HTML file — double-click and play."
     ],
-    "features": [],
+    "features": [
+      "Rhythm-based paddling: even strokes for speed, one-sided strokes to steer",
+      "Two players on one keyboard plus AI rivals in four difficulty levels",
+      "Three archipelago tracks with sun, dusk and fog",
+      "Six customisable kayaks, power-ups and touch paddling on mobile"
+    ],
     "tags": [
-      "Game",
-      "Concept"
+      "Canvas",
+      "Kids"
     ],
     "platform": "web",
     "difficulty": "simple",
@@ -815,6 +821,101 @@
     ],
     "tags": [
       "Utility"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true
+  },
+  "dela": {
+    "title": "Dela",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Split costs, not friendships — group expenses in Swedish",
+    "description": [
+      "Dela (\"Share\") is an expense-splitting PWA in Swedish for restaurants, trips, car pools and households: log expenses with categories, payers, participants and currencies, and let the settlement algorithm find the minimum number of payments — with Swish links ready to tap.",
+      "It scans receipts with AI-suggested line items (mocked for now, built to swap in real OCR), locks the exchange rate per expense, and draws its statistics with hand-rolled SVG charts in a colour-blind-validated palette. Mobile-first, installable and prepared for Capacitor packaging."
+    ],
+    "features": [
+      "Minimum-payment settlement with ready-to-tap Swish links",
+      "Receipt camera mode with AI-suggested line items",
+      "Multiple groups and five currencies with locked rate per expense",
+      "Hand-built SVG statistics — line, pie and bar charts"
+    ],
+    "tags": [
+      "PWA",
+      "Finance"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true
+  },
+  "sanka-skepp": {
+    "title": "Sänka Skepp",
+    "category": "game",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "The classic Battleship, rebuilt modern — with an AI that actually thinks",
+    "description": [
+      "Sänka Skepp (\"Sink the Ships\") is the classic Battleship as a modern PWA: drag-and-drop fleet placement, explosions, lingering fires, splashes and a shaking board when a ship goes down.",
+      "The hard AI plays with a probability map over every possible ship placement, remembers its hits and hunts efficiently — or hand the device over and play two on one screen with a pass-and-play handover. Every sound, including the ambient music, is synthesised with Web Audio; there is not one audio file in the game."
+    ],
+    "features": [
+      "Three AI levels, topped by a probability-map hunter",
+      "Two players on one device with a hand-over screen",
+      "Drag-and-drop placement with touch support and rotation",
+      "Stats, eight achievements, synthesised sound — installable and offline"
+    ],
+    "tags": [
+      "PWA"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true
+  },
+  "tum-till-millimeter": {
+    "title": "Tum till Millimeter",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "\"Grab me a two-by-four\" — Swedish lumber sizes decoded to millimetres",
+    "description": [
+      "Tum till Millimeter (\"Inches to Millimetres\") decodes Swedish carpenter-speak: type 2x4, \"tvåfyra\", 45x95 or \"stud for an interior wall\" and get the planed and rough-sawn dimensions in millimetres, with an illustration, typical uses and related sizes.",
+      "Around the search sits a live inch-to-millimetre converter that understands decimals and fractions like 3/4 and 1 1/2, a full dimension table, a fourteen-term builder's glossary and an FAQ — plus favourites, history, dark mode and offline support as an installable PWA."
+    ],
+    "features": [
+      "Interprets carpenter language — 2x4, tvåfyra, trekvarts, 45x95",
+      "Live inch ⇄ mm converter with decimals and fractions",
+      "Lumber tables with planed/rough-sawn toggle and illustrations",
+      "Builder's glossary and FAQ — installable, works offline"
+    ],
+    "tags": [
+      "Next.js",
+      "PWA"
+    ],
+    "platform": "web",
+    "difficulty": "simple",
+    "curated": true
+  },
+  "sjocalc": {
+    "title": "SjöCalc",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "The boater's toolbox — marine converters, calculators and weather",
+    "description": [
+      "SjöCalc (\"SeaCalc\") gathers the boating life's numbers in one PWA: eleven marine unit converters — knots, nautical miles, fathoms, Beaufort and more — six boat calculators for fuel burn, range, anchor rode, load, battery time and fill-up cost, and a smart search where typing \"25 knop\" gives every relevant conversion at once.",
+      "Around the maths sits real seamanship: an Open-Meteo forecast distilled into a boating-weather index, a harbour guide with sea marks, signal flags and right-of-way rules, a clickable boat that teaches the terminology and a three-level sea quiz. Works fully offline."
+    ],
+    "features": [
+      "Smart search: type \"25 knop\" or \"5 famnar\", get answers instantly",
+      "Eleven converters and six boat calculators with quick tables",
+      "Boating-weather index built on Open-Meteo forecasts",
+      "Harbour guide, sea quiz and knowledge bank — offline-ready PWA"
+    ],
+    "tags": [
+      "PWA",
+      "React"
     ],
     "platform": "web",
     "difficulty": "intermediate",

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-17T13:06:54.790Z",
+  "generatedAt": "2026-07-17T21:45:38.993Z",
   "counts": {
-    "total": 33,
-    "games": 11,
-    "apps": 21,
+    "total": 37,
+    "games": 12,
+    "apps": 24,
     "ideas": 1,
-    "live": 24
+    "live": 29
   },
   "now": {
     "current": {
@@ -14,18 +14,18 @@
       "overridden": false
     },
     "latestGame": {
-      "slug": "disco-bowl-neon-strike",
+      "slug": "kajak-race",
       "overridden": false
     },
     "newApp": {
-      "slug": "jaktlexikon",
+      "slug": "dela",
       "overridden": false
     },
     "nextIdea": {
       "slug": "idea-garden-planner-ai",
       "overridden": false
     },
-    "projectCount": 33
+    "projectCount": 37
   },
   "projects": [
     {
@@ -160,15 +160,15 @@
       "art": "assets/art/blizzard-run.webp",
       "links": {
         "github": "https://github.com/vindrosen/Blizzard-Run",
-        "githubPrivate": true,
-        "demo": ""
+        "githubPrivate": false,
+        "demo": "https://vindrosen.github.io/Blizzard-Run/"
       },
       "detected": {
         "hasLocal": true,
         "localFolder": "Blizzard-Run",
         "hasGitHub": true,
         "repoName": "Blizzard-Run",
-        "visibility": "PRIVATE",
+        "visibility": "PUBLIC",
         "primaryLanguage": "JavaScript",
         "techStack": [
           "PWA",
@@ -232,6 +232,63 @@
         "lastLocalCommit": null,
         "lastPushed": null,
         "lastActivity": "2026-07-11"
+      },
+      "curated": true
+    },
+    {
+      "slug": "dela",
+      "title": "Dela",
+      "category": "app",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "Split costs, not friendships — group expenses in Swedish",
+      "description": [
+        "Dela (\"Share\") is an expense-splitting PWA in Swedish for restaurants, trips, car pools and households: log expenses with categories, payers, participants and currencies, and let the settlement algorithm find the minimum number of payments — with Swish links ready to tap.",
+        "It scans receipts with AI-suggested line items (mocked for now, built to swap in real OCR), locks the exchange rate per expense, and draws its statistics with hand-rolled SVG charts in a colour-blind-validated palette. Mobile-first, installable and prepared for Capacitor packaging."
+      ],
+      "features": [
+        "Minimum-payment settlement with ready-to-tap Swish links",
+        "Receipt camera mode with AI-suggested line items",
+        "Multiple groups and five currencies with locked rate per expense",
+        "Hand-built SVG statistics — line, pie and bar charts"
+      ],
+      "tags": [
+        "PWA",
+        "Finance",
+        "React",
+        "Vite",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "platform": "web",
+      "difficulty": "intermediate",
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": "assets/art/dela.webp",
+      "links": {
+        "github": "https://github.com/vindrosen/Dela",
+        "githubPrivate": false,
+        "demo": "https://vindrosen.github.io/Dela/"
+      },
+      "detected": {
+        "hasLocal": true,
+        "localFolder": "Dela",
+        "hasGitHub": true,
+        "repoName": "Dela",
+        "visibility": "PUBLIC",
+        "primaryLanguage": "TypeScript",
+        "techStack": [
+          "React",
+          "Vite",
+          "TypeScript",
+          "Tailwind CSS"
+        ],
+        "manifests": [
+          "package.json"
+        ],
+        "lastLocalCommit": "2026-07-17",
+        "lastPushed": "2026-07-17",
+        "lastActivity": "2026-07-17"
       },
       "curated": true
     },
@@ -660,16 +717,22 @@
       "slug": "kajak-race",
       "title": "Kajak Race",
       "category": "game",
-      "status": "planning",
-      "statusLabel": "Planning",
-      "tagline": "An upcoming kayak racing game — paddle for the finish line",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "Rhythm-paddling kayak racing in the Hudiksvall archipelago",
       "description": [
-        "The next game on the drawing board: kayak racing in the browser. Early planning stage — expect the same recipe as my other games: zero dependencies, touch-first controls and something the kids will actually want to play."
+        "Kajak Race went from drawing board to finish line: a fast, colourful arcade kayak race set in the Hudiksvall archipelago. The controls are the whole game — you paddle by alternating two keys in an even rhythm, paddle harder on one side to steer, and if you just mash the keys you catch a crab and wobble.",
+        "Race two players on one keyboard against AI rivals across three tracks with different weather, dodging seals, swans, logs, jet skis and the angry gulls that go after the leader. Like my other games it is a single HTML file — double-click and play."
       ],
-      "features": [],
+      "features": [
+        "Rhythm-based paddling: even strokes for speed, one-sided strokes to steer",
+        "Two players on one keyboard plus AI rivals in four difficulty levels",
+        "Three archipelago tracks with sun, dusk and fog",
+        "Six customisable kayaks, power-ups and touch paddling on mobile"
+      ],
       "tags": [
-        "Game",
-        "Concept",
+        "Canvas",
+        "Kids",
         "JavaScript"
       ],
       "platform": "web",
@@ -678,26 +741,24 @@
       "featured": false,
       "art": "assets/art/kajak-race.webp",
       "links": {
-        "github": null,
+        "github": "https://github.com/vindrosen/kajak-race",
         "githubPrivate": false,
-        "demo": null
+        "demo": "https://vindrosen.github.io/kajak-race/"
       },
       "detected": {
-        "hasLocal": true,
-        "localFolder": "Kajak-Race",
-        "hasGitHub": false,
-        "repoName": null,
-        "visibility": null,
-        "primaryLanguage": null,
+        "hasLocal": false,
+        "localFolder": null,
+        "hasGitHub": true,
+        "repoName": "kajak-race",
+        "visibility": "PUBLIC",
+        "primaryLanguage": "JavaScript",
         "techStack": [
           "JavaScript"
         ],
-        "manifests": [
-          "index.html"
-        ],
+        "manifests": [],
         "lastLocalCommit": null,
-        "lastPushed": null,
-        "lastActivity": "2026-07-14"
+        "lastPushed": "2026-07-17",
+        "lastActivity": "2026-07-17"
       },
       "curated": true
     },
@@ -987,7 +1048,8 @@
       "tags": [
         "JavaScript",
         "Canvas",
-        "Arcade"
+        "Arcade",
+        "HTML"
       ],
       "platform": "web",
       "difficulty": "simple",
@@ -995,26 +1057,24 @@
       "featured": false,
       "art": "assets/art/pappersflygspelet.webp",
       "links": {
-        "github": null,
+        "github": "https://github.com/vindrosen/pappersflygspelet",
         "githubPrivate": false,
-        "demo": null
+        "demo": "https://vindrosen.github.io/pappersflygspelet/"
       },
       "detected": {
-        "hasLocal": true,
-        "localFolder": "Pappersflygspelet",
-        "hasGitHub": false,
-        "repoName": null,
-        "visibility": null,
-        "primaryLanguage": null,
+        "hasLocal": false,
+        "localFolder": null,
+        "hasGitHub": true,
+        "repoName": "pappersflygspelet",
+        "visibility": "PUBLIC",
+        "primaryLanguage": "HTML",
         "techStack": [
-          "JavaScript"
+          "HTML"
         ],
-        "manifests": [
-          "pappersflyget.html"
-        ],
+        "manifests": [],
         "lastLocalCommit": null,
-        "lastPushed": null,
-        "lastActivity": "2026-07-11"
+        "lastPushed": "2026-07-17",
+        "lastActivity": "2026-07-17"
       },
       "curated": true
     },
@@ -1492,6 +1552,111 @@
       "curated": true
     },
     {
+      "slug": "sanka-skepp",
+      "title": "Sänka Skepp",
+      "category": "game",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "The classic Battleship, rebuilt modern — with an AI that actually thinks",
+      "description": [
+        "Sänka Skepp (\"Sink the Ships\") is the classic Battleship as a modern PWA: drag-and-drop fleet placement, explosions, lingering fires, splashes and a shaking board when a ship goes down.",
+        "The hard AI plays with a probability map over every possible ship placement, remembers its hits and hunts efficiently — or hand the device over and play two on one screen with a pass-and-play handover. Every sound, including the ambient music, is synthesised with Web Audio; there is not one audio file in the game."
+      ],
+      "features": [
+        "Three AI levels, topped by a probability-map hunter",
+        "Two players on one device with a hand-over screen",
+        "Drag-and-drop placement with touch support and rotation",
+        "Stats, eight achievements, synthesised sound — installable and offline"
+      ],
+      "tags": [
+        "PWA",
+        "React",
+        "Vite",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "platform": "web",
+      "difficulty": "intermediate",
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": "assets/art/sanka-skepp.webp",
+      "links": {
+        "github": "https://github.com/vindrosen/sanka-skepp",
+        "githubPrivate": false,
+        "demo": "https://vindrosen.github.io/sanka-skepp/"
+      },
+      "detected": {
+        "hasLocal": true,
+        "localFolder": "SänkaSkepp",
+        "hasGitHub": true,
+        "repoName": "sanka-skepp",
+        "visibility": "PUBLIC",
+        "primaryLanguage": "TypeScript",
+        "techStack": [
+          "React",
+          "Vite",
+          "TypeScript",
+          "Tailwind CSS"
+        ],
+        "manifests": [
+          "package.json"
+        ],
+        "lastLocalCommit": "2026-07-17",
+        "lastPushed": "2026-07-17",
+        "lastActivity": "2026-07-17"
+      },
+      "curated": true
+    },
+    {
+      "slug": "sjocalc",
+      "title": "SjöCalc",
+      "category": "app",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "The boater's toolbox — marine converters, calculators and weather",
+      "description": [
+        "SjöCalc (\"SeaCalc\") gathers the boating life's numbers in one PWA: eleven marine unit converters — knots, nautical miles, fathoms, Beaufort and more — six boat calculators for fuel burn, range, anchor rode, load, battery time and fill-up cost, and a smart search where typing \"25 knop\" gives every relevant conversion at once.",
+        "Around the maths sits real seamanship: an Open-Meteo forecast distilled into a boating-weather index, a harbour guide with sea marks, signal flags and right-of-way rules, a clickable boat that teaches the terminology and a three-level sea quiz. Works fully offline."
+      ],
+      "features": [
+        "Smart search: type \"25 knop\" or \"5 famnar\", get answers instantly",
+        "Eleven converters and six boat calculators with quick tables",
+        "Boating-weather index built on Open-Meteo forecasts",
+        "Harbour guide, sea quiz and knowledge bank — offline-ready PWA"
+      ],
+      "tags": [
+        "PWA",
+        "React",
+        "TypeScript"
+      ],
+      "platform": "web",
+      "difficulty": "intermediate",
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": "assets/art/sjocalc.webp",
+      "links": {
+        "github": "https://github.com/vindrosen/SjoCalc",
+        "githubPrivate": false,
+        "demo": "https://vindrosen.github.io/SjoCalc/"
+      },
+      "detected": {
+        "hasLocal": false,
+        "localFolder": null,
+        "hasGitHub": true,
+        "repoName": "SjoCalc",
+        "visibility": "PUBLIC",
+        "primaryLanguage": "TypeScript",
+        "techStack": [
+          "TypeScript"
+        ],
+        "manifests": [],
+        "lastLocalCommit": null,
+        "lastPushed": "2026-07-17",
+        "lastActivity": "2026-07-17"
+      },
+      "curated": true
+    },
+    {
       "slug": "skafferimanager",
       "title": "SkafferiManager",
       "category": "app",
@@ -1610,6 +1775,55 @@
       "curated": true
     },
     {
+      "slug": "tum-till-millimeter",
+      "title": "Tum till Millimeter",
+      "category": "app",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "\"Grab me a two-by-four\" — Swedish lumber sizes decoded to millimetres",
+      "description": [
+        "Tum till Millimeter (\"Inches to Millimetres\") decodes Swedish carpenter-speak: type 2x4, \"tvåfyra\", 45x95 or \"stud for an interior wall\" and get the planed and rough-sawn dimensions in millimetres, with an illustration, typical uses and related sizes.",
+        "Around the search sits a live inch-to-millimetre converter that understands decimals and fractions like 3/4 and 1 1/2, a full dimension table, a fourteen-term builder's glossary and an FAQ — plus favourites, history, dark mode and offline support as an installable PWA."
+      ],
+      "features": [
+        "Interprets carpenter language — 2x4, tvåfyra, trekvarts, 45x95",
+        "Live inch ⇄ mm converter with decimals and fractions",
+        "Lumber tables with planed/rough-sawn toggle and illustrations",
+        "Builder's glossary and FAQ — installable, works offline"
+      ],
+      "tags": [
+        "Next.js",
+        "PWA",
+        "TypeScript"
+      ],
+      "platform": "web",
+      "difficulty": "simple",
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": "assets/art/tum-till-millimeter.webp",
+      "links": {
+        "github": "https://github.com/vindrosen/tum-till-millimeter",
+        "githubPrivate": false,
+        "demo": "https://vindrosen.github.io/tum-till-millimeter/"
+      },
+      "detected": {
+        "hasLocal": false,
+        "localFolder": null,
+        "hasGitHub": true,
+        "repoName": "tum-till-millimeter",
+        "visibility": "PUBLIC",
+        "primaryLanguage": "TypeScript",
+        "techStack": [
+          "TypeScript"
+        ],
+        "manifests": [],
+        "lastLocalCommit": null,
+        "lastPushed": "2026-07-17",
+        "lastActivity": "2026-07-17"
+      },
+      "curated": true
+    },
+    {
       "slug": "varmebesparingsapp",
       "title": "Gräddagar",
       "category": "app",
@@ -1681,7 +1895,8 @@
       "tags": [
         "JavaScript",
         "Canvas",
-        "Kids"
+        "Kids",
+        "HTML"
       ],
       "platform": "web",
       "difficulty": "simple",
@@ -1689,26 +1904,24 @@
       "featured": false,
       "art": "assets/art/vattenskoter-aventyret.webp",
       "links": {
-        "github": null,
+        "github": "https://github.com/vindrosen/vattenskoter-aventyret",
         "githubPrivate": false,
-        "demo": null
+        "demo": "https://vindrosen.github.io/vattenskoter-aventyret/"
       },
       "detected": {
-        "hasLocal": true,
-        "localFolder": "Vattenskoter-äventyret",
-        "hasGitHub": false,
-        "repoName": null,
-        "visibility": null,
-        "primaryLanguage": null,
+        "hasLocal": false,
+        "localFolder": null,
+        "hasGitHub": true,
+        "repoName": "vattenskoter-aventyret",
+        "visibility": "PUBLIC",
+        "primaryLanguage": "HTML",
         "techStack": [
-          "JavaScript"
+          "HTML"
         ],
-        "manifests": [
-          "index.html"
-        ],
+        "manifests": [],
         "lastLocalCommit": null,
-        "lastPushed": null,
-        "lastActivity": "2026-07-11"
+        "lastPushed": "2026-07-17",
+        "lastActivity": "2026-07-17"
       },
       "curated": true
     },
