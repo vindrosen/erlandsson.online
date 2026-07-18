@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-17T21:45:38.993Z",
+  "generatedAt": "2026-07-18T06:22:40.181Z",
   "counts": {
-    "total": 37,
-    "games": 12,
-    "apps": 24,
+    "total": 39,
+    "games": 13,
+    "apps": 25,
     "ideas": 1,
-    "live": 29
+    "live": 31
   },
   "now": {
     "current": {
@@ -14,18 +14,18 @@
       "overridden": false
     },
     "latestGame": {
-      "slug": "kajak-race",
+      "slug": "depth-charge",
       "overridden": false
     },
     "newApp": {
-      "slug": "dela",
+      "slug": "tankkoll",
       "overridden": false
     },
     "nextIdea": {
       "slug": "idea-garden-planner-ai",
       "overridden": false
     },
-    "projectCount": 37
+    "projectCount": 39
   },
   "projects": [
     {
@@ -289,6 +289,63 @@
         "lastLocalCommit": "2026-07-17",
         "lastPushed": "2026-07-17",
         "lastActivity": "2026-07-17"
+      },
+      "curated": true
+    },
+    {
+      "slug": "depth-charge",
+      "title": "Depth Charge",
+      "category": "game",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "Hold to set the depth, release to destroy — submarine-hunting arcade",
+      "description": [
+        "Depth Charge puts you on an auto-sailing patrol boat with enemy submarines lurking below. The whole game lives in one mechanic: hold the button to set the explosion depth — hold longer, sink deeper — then release to drop the charge. Sink every submarine with as few bombs as possible.",
+        "It grew into a full arcade package: a campaign with a boss every fifth level, endless survival, time attack and a seeded daily challenge, plus coins, XP and boat upgrades from blast radius to sonar. The engine is hand-built Canvas 2D with camera shake, and every sound is procedural Web Audio — no audio files at all."
+      ],
+      "features": [
+        "One-button depth mechanic — hold to aim deep, release to drop",
+        "Campaign with bosses, survival, time attack and a daily challenge",
+        "Boat upgrades: blast radius, bomb capacity, speed and sonar",
+        "Hand-built Canvas engine, procedural audio, installable PWA"
+      ],
+      "tags": [
+        "Canvas",
+        "PWA",
+        "React",
+        "Vite",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "platform": "web",
+      "difficulty": "intermediate",
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": "assets/art/depth-charge.webp",
+      "links": {
+        "github": "https://github.com/vindrosen/depth-charge",
+        "githubPrivate": false,
+        "demo": "https://vindrosen.github.io/depth-charge/"
+      },
+      "detected": {
+        "hasLocal": true,
+        "localFolder": "Depth Zero",
+        "hasGitHub": true,
+        "repoName": "depth-charge",
+        "visibility": "PUBLIC",
+        "primaryLanguage": "TypeScript",
+        "techStack": [
+          "React",
+          "Vite",
+          "TypeScript",
+          "Tailwind CSS"
+        ],
+        "manifests": [
+          "package.json"
+        ],
+        "lastLocalCommit": "2026-07-18",
+        "lastPushed": "2026-07-18",
+        "lastActivity": "2026-07-18"
       },
       "curated": true
     },
@@ -1775,6 +1832,61 @@
       "curated": true
     },
     {
+      "slug": "tankkoll",
+      "title": "TankKoll",
+      "category": "app",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "Log your fill-ups, learn what your car really burns",
+      "description": [
+        "TankKoll (\"Tank Check\") logs your fill-ups and works out what your car actually consumes — rolling average over recent tanks, cost per distance, monthly graphs — and compares the real number against the manufacturer's WLTP figure, so you can see how far off the brochure is.",
+        "A new fill-up takes under fifteen seconds, with distance and consumption previewed live while you type. Everything stays in your browser: no accounts, no server, no tracking — just a free, installable PWA."
+      ],
+      "features": [
+        "Real consumption from odometer and litres — not guesswork",
+        "WLTP comparison against the factory figure",
+        "Statistics in three tabs with monthly graphs and cost breakdowns",
+        "Local-only data, installable as a PWA, completely free"
+      ],
+      "tags": [
+        "PWA",
+        "Cars",
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "platform": "web",
+      "difficulty": "simple",
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": "assets/art/tankkoll.webp",
+      "links": {
+        "github": "https://github.com/vindrosen/tankkoll",
+        "githubPrivate": false,
+        "demo": "https://vindrosen.github.io/tankkoll/"
+      },
+      "detected": {
+        "hasLocal": true,
+        "localFolder": "TankKoll",
+        "hasGitHub": true,
+        "repoName": "tankkoll",
+        "visibility": "PUBLIC",
+        "primaryLanguage": "TypeScript",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS"
+        ],
+        "manifests": [
+          "package.json"
+        ],
+        "lastLocalCommit": "2026-07-18",
+        "lastPushed": "2026-07-18",
+        "lastActivity": "2026-07-18"
+      },
+      "curated": true
+    },
+    {
       "slug": "tum-till-millimeter",
       "title": "Tum till Millimeter",
       "category": "app",
@@ -1794,7 +1906,9 @@
       "tags": [
         "Next.js",
         "PWA",
-        "TypeScript"
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
       ],
       "platform": "web",
       "difficulty": "simple",
@@ -1807,19 +1921,23 @@
         "demo": "https://vindrosen.github.io/tum-till-millimeter/"
       },
       "detected": {
-        "hasLocal": false,
-        "localFolder": null,
+        "hasLocal": true,
+        "localFolder": "tum-till-millimeter",
         "hasGitHub": true,
         "repoName": "tum-till-millimeter",
         "visibility": "PUBLIC",
         "primaryLanguage": "TypeScript",
         "techStack": [
-          "TypeScript"
+          "React",
+          "TypeScript",
+          "Tailwind CSS"
         ],
-        "manifests": [],
-        "lastLocalCommit": null,
+        "manifests": [
+          "package.json"
+        ],
+        "lastLocalCommit": "2026-07-18",
         "lastPushed": "2026-07-17",
-        "lastActivity": "2026-07-17"
+        "lastActivity": "2026-07-18"
       },
       "curated": true
     },

@@ -920,5 +920,53 @@
     "platform": "web",
     "difficulty": "intermediate",
     "curated": true
+  },
+  "depth-charge": {
+    "title": "Depth Charge",
+    "category": "game",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Hold to set the depth, release to destroy — submarine-hunting arcade",
+    "description": [
+      "Depth Charge puts you on an auto-sailing patrol boat with enemy submarines lurking below. The whole game lives in one mechanic: hold the button to set the explosion depth — hold longer, sink deeper — then release to drop the charge. Sink every submarine with as few bombs as possible.",
+      "It grew into a full arcade package: a campaign with a boss every fifth level, endless survival, time attack and a seeded daily challenge, plus coins, XP and boat upgrades from blast radius to sonar. The engine is hand-built Canvas 2D with camera shake, and every sound is procedural Web Audio — no audio files at all."
+    ],
+    "features": [
+      "One-button depth mechanic — hold to aim deep, release to drop",
+      "Campaign with bosses, survival, time attack and a daily challenge",
+      "Boat upgrades: blast radius, bomb capacity, speed and sonar",
+      "Hand-built Canvas engine, procedural audio, installable PWA"
+    ],
+    "tags": [
+      "Canvas",
+      "PWA"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true
+  },
+  "tankkoll": {
+    "title": "TankKoll",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Log your fill-ups, learn what your car really burns",
+    "description": [
+      "TankKoll (\"Tank Check\") logs your fill-ups and works out what your car actually consumes — rolling average over recent tanks, cost per distance, monthly graphs — and compares the real number against the manufacturer's WLTP figure, so you can see how far off the brochure is.",
+      "A new fill-up takes under fifteen seconds, with distance and consumption previewed live while you type. Everything stays in your browser: no accounts, no server, no tracking — just a free, installable PWA."
+    ],
+    "features": [
+      "Real consumption from odometer and litres — not guesswork",
+      "WLTP comparison against the factory figure",
+      "Statistics in three tabs with monthly graphs and cost breakdowns",
+      "Local-only data, installable as a PWA, completely free"
+    ],
+    "tags": [
+      "PWA",
+      "Cars"
+    ],
+    "platform": "web",
+    "difficulty": "simple",
+    "curated": true
   }
 }
