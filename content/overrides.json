@@ -968,5 +968,97 @@
     "platform": "web",
     "difficulty": "simple",
     "curated": true
+  },
+  "alkoholkalkylator": {
+    "title": "Alkoholkalkylator",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "A theoretical BAC estimator — honest about what it cannot know",
+    "description": [
+      "Alkoholkalkylator (\"Alcohol Calculator\") estimates theoretical blood alcohol content with the Widmark formula and charts how the value changes hour by hour, drink by drink.",
+      "It is deliberately framed as an educational tool, and says so loudly: every number is a theoretical estimate built on population averages, the app measures nothing, and it must never be the basis for decisions about driving, work or safety. That honesty shaped the design as much as the maths did."
+    ],
+    "features": [
+      "Widmark-formula estimate charted over time",
+      "Clear safety framing — estimates only, never a go/no-go tool",
+      "Tested calculation engine, accessibility-minded UI",
+      "Runs entirely in the browser"
+    ],
+    "tags": [
+      "Education"
+    ],
+    "platform": "web",
+    "difficulty": "simple",
+    "curated": true
+  },
+  "bastutavlingen": {
+    "title": "Bastu-tävlingen",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Who lasts longest in the sauna? A playful competition for friends",
+    "description": [
+      "Bastu-tävlingen (\"The Sauna Competition\") lets friends compete — with a wink — over who stays in the sauna longest: live leaderboard, personal timers, QR-code invitations, statistics and awards for the regulars.",
+      "It is a full self-hosted solution: frontend, API and database start with a single docker compose command, on SQLite or PostgreSQL. The demo link shows the public landing pages — the app itself runs on your own machine. And it is firm about one thing: this is a game between friends, never an endurance contest. Leave the sauna at the first sign of discomfort."
+    ],
+    "features": [
+      "Live leaderboard and personal timers",
+      "Invite friends with a QR code",
+      "Statistics and awards",
+      "Self-hosted with one docker compose up — SQLite or PostgreSQL"
+    ],
+    "tags": [
+      "Self-hosted"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true
+  },
+  "catchmate": {
+    "title": "CatchMate",
+    "category": "app",
+    "status": "in-development",
+    "tagline": "Everything fishing — catch log, competitions, AI species ID and clubs",
+    "description": [
+      "CatchMate is the fishing companion I want in the boat: log a catch with photo, species, weight, spot and method, and let the app build the statistics — best times of day, best baits, even how air pressure affects the bite.",
+      "Around the log grows a social layer: fishing competitions with live leaderboards, clubs with shared records, badges and XP. An AI identifies the species from a photo and estimates length and weight. Next.js frontend, .NET backend — in active development."
+    ],
+    "features": [
+      "Catch log with photos, map spots and auto-saved weather",
+      "AI species identification with length and weight estimates",
+      "Competitions with live leaderboards, clubs, badges and XP",
+      "Statistics: best times, best baits and air-pressure insights"
+    ],
+    "tags": [
+      "AI",
+      ".NET"
+    ],
+    "platform": "web",
+    "difficulty": "advanced",
+    "curated": true
+  },
+  "onlinekvitto": {
+    "title": "OnlineKvitto",
+    "category": "app",
+    "status": "in-development",
+    "tagline": "Photograph paper receipts, let AI file them — never miss a warranty",
+    "description": [
+      "OnlineKvitto (\"Online Receipt\") takes the paper receipts that fade in a drawer and puts them online: photograph the receipt, an AI extracts the store, items and totals, and everything becomes searchable — with warranty tracking and reminders on top.",
+      "It is designed as a self-hosted Next.js and PostgreSQL app: a job queue living in the database, bilingual full-text and fuzzy search tuned for OCR noise, and a storage layer ready to move from local disk to S3. Freshly designed, now being built."
+    ],
+    "features": [
+      "Snap a receipt — AI extracts store, line items and totals",
+      "Full-text and fuzzy search built to survive OCR noise",
+      "Warranty tracking with reminders before they run out",
+      "Self-hosted: Next.js, PostgreSQL and Prisma behind Auth.js"
+    ],
+    "tags": [
+      "AI",
+      "PWA"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true
   }
 }
