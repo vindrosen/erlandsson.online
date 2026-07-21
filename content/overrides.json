@@ -1083,7 +1083,8 @@
     ],
     "platform": "web",
     "difficulty": "intermediate",
-    "curated": true
+    "curated": true,
+    "demo": "https://vagskyltsroulett.erlandsson.online/"
   },
   "swedish-road-signs-game-v-gskyltsroulett": {
     "title": "Swedish Road Signs Game (VÃ¤gskyltsRoulett)",

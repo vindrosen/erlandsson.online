@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-21T19:47:14.035Z",
+  "generatedAt": "2026-07-21T20:00:51.490Z",
   "counts": {
     "total": 44,
     "games": 14,
@@ -2212,7 +2212,7 @@
       "links": {
         "github": "https://github.com/vindrosen/vagskyltsroulett",
         "githubPrivate": true,
-        "demo": ""
+        "demo": "https://vagskyltsroulett.erlandsson.online/"
       },
       "detected": {
         "hasLocal": true,
