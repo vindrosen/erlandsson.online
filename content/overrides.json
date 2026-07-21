@@ -1060,5 +1060,40 @@
     "platform": "web",
     "difficulty": "intermediate",
     "curated": true
+  },
+  "vagskyltsroulett": {
+    "title": "VägskyltsRoulett",
+    "category": "game",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Learn Swedish road signs through play — quiz, tests, and multiplayer",
+    "description": [
+      "VägskyltsRoulett teaches Sweden's 344 official road signs by playing: quiz, driving-test practice, time attack, survival mode, category training, local two-player and online multiplayer — plus a daily challenge that changes for everyone at midnight.",
+      "Every sign downloads locally, works offline as a PWA, speaks its name aloud, and comes with its legal definition and common mistakes. The game also holds 19 historical signs from 1916 onwards, so you can learn (and quiz on) the obsolete ones too."
+    ],
+    "features": [
+      "Eight game modes: quiz, endless, time attack, survival, licence test, categories, local vs and online vs",
+      "344 official Swedish road signs + 12 historical signs (1916–1980)",
+      "Daily challenge with global leaderboard, six achievements and progression saving",
+      "Fully offline PWA with dark/light theme and Swedish/English"
+    ],
+    "tags": [
+      "Game",
+      "Education"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true
+  },
+  "swedish-road-signs-game-v-gskyltsroulett": {
+    "title": "Swedish Road Signs Game (VÃ¤gskyltsRoulett)",
+    "category": "game",
+    "status": "in-development",
+    "tagline": "",
+    "description": [],
+    "features": [],
+    "tags": [],
+    "curated": false,
+    "hidden": true
   }
 }
