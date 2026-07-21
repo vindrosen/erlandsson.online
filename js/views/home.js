@@ -1,15 +1,17 @@
 import { el, categoryCard, nowStrip } from '../components.js';
 import { getData } from '../data.js';
+import { heroBackdrop, heroStatus } from '../hero-scene.js';
 
 export async function renderHome(container) {
   const data = await getData();
 
   const hero = el('section.hero', {},
-    heroBackground(),
+    heroBackdrop(),
     el('div.hero-content', {},
       el('h1.hero-name', {}, 'Robert', el('br'), 'Erlandsson'),
       el('p.hero-tagline', {}, 'Building ideas that become reality'),
       el('p.hero-blurb', {}, 'I build web apps, games and digital tools. Exploring technology, creating solutions and building the future.'),
+      heroStatus(),
       el('a.btn', { href: '#/projects' }, 'Explore Projects')));
 
   const cats = el('div.container.home-cards', {},
@@ -23,14 +25,4 @@ export async function renderHome(container) {
     nowStrip(data));
 
   container.append(hero, cats);
-}
-
-function heroBackground() {
-  const img = new Image();
-  img.className = 'hero-bg';
-  img.alt = '';
-  img.src = 'assets/art/hero-home.webp';
-  const placeholder = el('div.hero-bg-placeholder');
-  img.onload = () => placeholder.replaceWith(img);
-  return placeholder;
 }

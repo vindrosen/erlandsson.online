@@ -17,6 +17,9 @@ content/ideas.json        concept/idea entries            ─┘        │
 index.html + js/ + css/   static site renders everything from projects.json
 ```
 
+- **Hero ambient scene**: `js/hero-scene.js` composites animated overlays (stars,
+  glows, parallax) onto the untouched hero artwork — design notes in
+  `docs/superpowers/specs/2026-07-20-hero-animation-design.md`.
 - **Local scan**: every folder in `..\` (except `excludeFolders`) is profiled —
   manifests, tech stack, git remote, last commit.
 - **GitHub**: `gh repo list vindrosen` (requires an authenticated GitHub CLI).
