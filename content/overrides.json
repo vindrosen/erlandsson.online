@@ -1096,5 +1096,101 @@
     "tags": [],
     "curated": false,
     "hidden": true
+  },
+  "asset-library": {
+    "title": "Asset Library",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "A deduplicated image archive — tag, search and organize thousands of images",
+    "description": [
+      "Asset Library is a self-hosted image archive that deduplicates and organizes media: upload thousands of images and the system detects and removes duplicates using SHA-256 hashing, perceptual hashing (pHash) and embedding-based matching. Every image is tagged, searchable by content and taggable by hand.",
+      "Built on ASP.NET Core and React, with optional OpenAI integration for automatic tagging. Runs in Docker with a single compose command."
+    ],
+    "features": [
+      "Deduplication via SHA-256, perceptual hashing and embeddings",
+      "Tag-based search and content-based search with optional AI tagging",
+      "Scalable to thousands of images with efficient storage",
+      "Self-hosted: ASP.NET Core + React + Docker"
+    ],
+    "tags": [
+      "Asset Management",
+      ".NET"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true
+  },
+  "crane-builder": {
+    "title": "Crane Builder",
+    "category": "game",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Physics Tetris — operate a tower crane to place blocks",
+    "description": [
+      "Crane Builder combines Tetris and machinery: a delivery truck brings each tetromino, a tower crane picks it up on a swinging hook, and you operate the crane — drive the trolley, hoist the load, rotate the jib — while wind pushes the block around. Release at the right moment and it snaps into the grid. Complete rows clear like classic Tetris, but a bad release leaves a gap that haunts you later.",
+      "Six game modes test different skills: standard play, a time limit, a points target, survival (how high before you topple), a storm with wind gusts, and a zen mode. Built with Phaser 3 and Matter.js physics."
+    ],
+    "features": [
+      "Operate the crane: trolley, hoist, slew, rotate and release",
+      "Six game modes: standard, time limit, points, survival, storm, zen",
+      "Full keyboard and touch controls",
+      "Physics-accurate wind, swinging load and snap-to-grid placement"
+    ],
+    "tags": [
+      "Physics",
+      "Phaser"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true
+  },
+  "gissastrackan": {
+    "title": "Gissa Sträckan",
+    "category": "game",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Multiplayer estimation quiz — guess the distance or the height",
+    "description": [
+      "Gissa Sträckan (Guess the Distance) is a game and an estimation quiz engine: players compete in real time by guessing a number — closest absolute error wins. The core is game-agnostic — it handles multiplayer rooms, timers, scoring and leaderboards. Each game is just a dataset and config: Guess Swedish Cities, World Cities, Mountain Heights, Landmarks. Adding a new game needs no engine changes.",
+      "Play in private rooms with shareable 6-character codes or QR links, with server-authoritative game loops so clients cannot cheat the clock. Statistics, rankings, and a polished mobile-first UI."
+    ],
+    "features": [
+      "Multiplayer estimation: guess closest to win each round",
+      "Four built-in games plus plug-in architecture for adding more",
+      "Real-time multiplayer with room codes and QR invites",
+      "Self-hosted via Docker with rankings and persistent statistics"
+    ],
+    "tags": [
+      "Multiplayer",
+      "Quiz"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true
+  },
+  "minuten": {
+    "title": "Minuten",
+    "category": "game",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Press STOP as close to the target time as you can",
+    "description": [
+      "Minuten (\"The Minute\") is a timing game where you press a button to stop a hidden timer as close as possible to a target time — without a reliable clock to help you. Train your internal timing sense in four modes: classic (visible timer), blind (a calm pulsing orb), hardcore (black screen, just the STOP button), or random targets that change each round.",
+      "Play solo to practice, pass a phone for local multiplayer, or open an online room and compete with friends in real time. The scoring is rank-based and configurable, with persistent statistics: win rate, average deviation, best precision and match history."
+    ],
+    "features": [
+      "Four modes: classic, blind, hardcore, random target",
+      "Solo, local pass-and-play, and online multiplayer with room codes",
+      "Real-time multiplayer over SignalR with reconnect support",
+      "Statistics: win rate, average deviation, win streaks and leaderboards"
+    ],
+    "tags": [
+      "Multiplayer",
+      "Timing"
+    ],
+    "platform": "web",
+    "difficulty": "simple",
+    "curated": true
   }
 }

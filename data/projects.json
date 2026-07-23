@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-21T20:00:51.490Z",
+  "generatedAt": "2026-07-23T20:01:59.128Z",
   "counts": {
-    "total": 44,
-    "games": 14,
-    "apps": 29,
+    "total": 48,
+    "games": 17,
+    "apps": 30,
     "ideas": 1,
-    "live": 34
+    "live": 38
   },
   "now": {
     "current": {
@@ -14,7 +14,7 @@
       "overridden": false
     },
     "latestGame": {
-      "slug": "vagskyltsroulett",
+      "slug": "crane-builder",
       "overridden": false
     },
     "newApp": {
@@ -25,7 +25,7 @@
       "slug": "idea-garden-planner-ai",
       "overridden": false
     },
-    "projectCount": 44
+    "projectCount": 48
   },
   "projects": [
     {
@@ -111,15 +111,15 @@
       "art": "assets/art/alkoholkalkylator.webp",
       "links": {
         "github": "https://github.com/vindrosen/Alkoholkalkylator",
-        "githubPrivate": false,
-        "demo": "https://vindrosen.github.io/Alkoholkalkylator/"
+        "githubPrivate": true,
+        "demo": ""
       },
       "detected": {
         "hasLocal": true,
         "localFolder": "Alkoholkalkylator",
         "hasGitHub": true,
         "repoName": "Alkoholkalkylator",
-        "visibility": "PUBLIC",
+        "visibility": "PRIVATE",
         "primaryLanguage": "TypeScript",
         "techStack": [
           "C#",
@@ -136,9 +136,76 @@
           "api/Alkoholkalkylator.Api.Tests/Alkoholkalkylator.Api.Tests.csproj",
           "web/package.json"
         ],
-        "lastLocalCommit": "2026-07-19",
-        "lastPushed": "2026-07-19",
-        "lastActivity": "2026-07-19"
+        "lastLocalCommit": "2026-07-22",
+        "lastPushed": "2026-07-22",
+        "lastActivity": "2026-07-22"
+      },
+      "curated": true
+    },
+    {
+      "slug": "asset-library",
+      "title": "Asset Library",
+      "category": "app",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "A deduplicated image archive — tag, search and organize thousands of images",
+      "description": [
+        "Asset Library is a self-hosted image archive that deduplicates and organizes media: upload thousands of images and the system detects and removes duplicates using SHA-256 hashing, perceptual hashing (pHash) and embedding-based matching. Every image is tagged, searchable by content and taggable by hand.",
+        "Built on ASP.NET Core and React, with optional OpenAI integration for automatic tagging. Runs in Docker with a single compose command."
+      ],
+      "features": [
+        "Deduplication via SHA-256, perceptual hashing and embeddings",
+        "Tag-based search and content-based search with optional AI tagging",
+        "Scalable to thousands of images with efficient storage",
+        "Self-hosted: ASP.NET Core + React + Docker"
+      ],
+      "tags": [
+        "Asset Management",
+        ".NET",
+        "C#",
+        ".NET 9",
+        "ASP.NET Core",
+        "EF Core",
+        "SQLite",
+        "React",
+        "Vite",
+        "TypeScript"
+      ],
+      "platform": "web",
+      "difficulty": "intermediate",
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": "assets/art/asset-library.webp",
+      "links": {
+        "github": null,
+        "githubPrivate": false,
+        "demo": null
+      },
+      "detected": {
+        "hasLocal": true,
+        "localFolder": "Asset Library",
+        "hasGitHub": false,
+        "repoName": null,
+        "visibility": null,
+        "primaryLanguage": null,
+        "techStack": [
+          "C#",
+          ".NET 9",
+          "ASP.NET Core",
+          "EF Core",
+          "SQLite",
+          "React",
+          "Vite",
+          "TypeScript"
+        ],
+        "manifests": [
+          "mcp/package.json",
+          "src/AssetLibrary.Api/AssetLibrary.Api.csproj",
+          "web/package.json"
+        ],
+        "lastLocalCommit": "2026-07-02",
+        "lastPushed": null,
+        "lastActivity": "2026-07-02"
       },
       "curated": true
     },
@@ -410,6 +477,59 @@
         "lastLocalCommit": null,
         "lastPushed": null,
         "lastActivity": "2026-07-19"
+      },
+      "curated": true
+    },
+    {
+      "slug": "crane-builder",
+      "title": "Crane Builder",
+      "category": "game",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "Physics Tetris — operate a tower crane to place blocks",
+      "description": [
+        "Crane Builder combines Tetris and machinery: a delivery truck brings each tetromino, a tower crane picks it up on a swinging hook, and you operate the crane — drive the trolley, hoist the load, rotate the jib — while wind pushes the block around. Release at the right moment and it snaps into the grid. Complete rows clear like classic Tetris, but a bad release leaves a gap that haunts you later.",
+        "Six game modes test different skills: standard play, a time limit, a points target, survival (how high before you topple), a storm with wind gusts, and a zen mode. Built with Phaser 3 and Matter.js physics."
+      ],
+      "features": [
+        "Operate the crane: trolley, hoist, slew, rotate and release",
+        "Six game modes: standard, time limit, points, survival, storm, zen",
+        "Full keyboard and touch controls",
+        "Physics-accurate wind, swinging load and snap-to-grid placement"
+      ],
+      "tags": [
+        "Physics",
+        "Phaser",
+        "Vite",
+        "TypeScript"
+      ],
+      "platform": "web",
+      "difficulty": "intermediate",
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": "assets/art/crane-builder.webp",
+      "links": {
+        "github": "https://github.com/vindrosen/crane-builder",
+        "githubPrivate": true,
+        "demo": ""
+      },
+      "detected": {
+        "hasLocal": true,
+        "localFolder": "Crane-Builder",
+        "hasGitHub": true,
+        "repoName": "crane-builder",
+        "visibility": "PRIVATE",
+        "primaryLanguage": "TypeScript",
+        "techStack": [
+          "Vite",
+          "TypeScript"
+        ],
+        "manifests": [
+          "package.json"
+        ],
+        "lastLocalCommit": "2026-07-23",
+        "lastPushed": "2026-07-23",
+        "lastActivity": "2026-07-23"
       },
       "curated": true
     },
@@ -804,6 +924,69 @@
       "curated": true
     },
     {
+      "slug": "gissastrackan",
+      "title": "Gissa Sträckan",
+      "category": "game",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "Multiplayer estimation quiz — guess the distance or the height",
+      "description": [
+        "Gissa Sträckan (Guess the Distance) is a game and an estimation quiz engine: players compete in real time by guessing a number — closest absolute error wins. The core is game-agnostic — it handles multiplayer rooms, timers, scoring and leaderboards. Each game is just a dataset and config: Guess Swedish Cities, World Cities, Mountain Heights, Landmarks. Adding a new game needs no engine changes.",
+        "Play in private rooms with shareable 6-character codes or QR links, with server-authoritative game loops so clients cannot cheat the clock. Statistics, rankings, and a polished mobile-first UI."
+      ],
+      "features": [
+        "Multiplayer estimation: guess closest to win each round",
+        "Four built-in games plus plug-in architecture for adding more",
+        "Real-time multiplayer with room codes and QR invites",
+        "Self-hosted via Docker with rankings and persistent statistics"
+      ],
+      "tags": [
+        "Multiplayer",
+        "Quiz",
+        "C#",
+        ".NET 10",
+        "ASP.NET Core",
+        "React",
+        "Vite",
+        "TypeScript"
+      ],
+      "platform": "web",
+      "difficulty": "intermediate",
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": "assets/art/gissastrackan.webp",
+      "links": {
+        "github": "https://github.com/vindrosen/GissaStrackan",
+        "githubPrivate": true,
+        "demo": ""
+      },
+      "detected": {
+        "hasLocal": true,
+        "localFolder": "GissaSträckan",
+        "hasGitHub": true,
+        "repoName": "GissaStrackan",
+        "visibility": "PRIVATE",
+        "primaryLanguage": "TypeScript",
+        "techStack": [
+          "C#",
+          ".NET 10",
+          "ASP.NET Core",
+          "React",
+          "Vite",
+          "TypeScript"
+        ],
+        "manifests": [
+          "backend/QuizEngine.Server/QuizEngine.Server.csproj",
+          "backend/QuizEngine.Tests/QuizEngine.Tests.csproj",
+          "frontend/package.json"
+        ],
+        "lastLocalCommit": "2026-07-23",
+        "lastPushed": "2026-07-23",
+        "lastActivity": "2026-07-23"
+      },
+      "curated": true
+    },
+    {
       "slug": "grillmastaren",
       "title": "Grillmästaren",
       "category": "app",
@@ -1050,6 +1233,61 @@
         "lastLocalCommit": "2026-07-16",
         "lastPushed": "2026-07-16",
         "lastActivity": "2026-07-16"
+      },
+      "curated": true
+    },
+    {
+      "slug": "minuten",
+      "title": "Minuten",
+      "category": "game",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "Press STOP as close to the target time as you can",
+      "description": [
+        "Minuten (\"The Minute\") is a timing game where you press a button to stop a hidden timer as close as possible to a target time — without a reliable clock to help you. Train your internal timing sense in four modes: classic (visible timer), blind (a calm pulsing orb), hardcore (black screen, just the STOP button), or random targets that change each round.",
+        "Play solo to practice, pass a phone for local multiplayer, or open an online room and compete with friends in real time. The scoring is rank-based and configurable, with persistent statistics: win rate, average deviation, best precision and match history."
+      ],
+      "features": [
+        "Four modes: classic, blind, hardcore, random target",
+        "Solo, local pass-and-play, and online multiplayer with room codes",
+        "Real-time multiplayer over SignalR with reconnect support",
+        "Statistics: win rate, average deviation, win streaks and leaderboards"
+      ],
+      "tags": [
+        "Multiplayer",
+        "Timing",
+        "React",
+        "Vite",
+        "TypeScript"
+      ],
+      "platform": "web",
+      "difficulty": "simple",
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": "assets/art/minuten.webp",
+      "links": {
+        "github": "https://github.com/vindrosen/Minuten",
+        "githubPrivate": true,
+        "demo": ""
+      },
+      "detected": {
+        "hasLocal": true,
+        "localFolder": "Minuten",
+        "hasGitHub": true,
+        "repoName": "Minuten",
+        "visibility": "PRIVATE",
+        "primaryLanguage": "TypeScript",
+        "techStack": [
+          "React",
+          "Vite",
+          "TypeScript"
+        ],
+        "manifests": [
+          "client/package.json"
+        ],
+        "lastLocalCommit": "2026-07-23",
+        "lastPushed": "2026-07-23",
+        "lastActivity": "2026-07-23"
       },
       "curated": true
     },
