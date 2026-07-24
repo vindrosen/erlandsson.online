@@ -756,7 +756,8 @@
     ],
     "platform": "web",
     "difficulty": "intermediate",
-    "curated": true
+    "curated": true,
+    "demo": "https://osterjons-fiskar.erlandsson.online/"
   },
   "2taktblandning": {
     "title": "2Takt Blandning",
@@ -871,7 +872,8 @@
     ],
     "platform": "web",
     "difficulty": "intermediate",
-    "curated": true
+    "curated": true,
+    "demo": "https://sanktaskepp.erlandsson.online/"
   },
   "tum-till-millimeter": {
     "title": "Tum till Millimeter",
@@ -895,7 +897,8 @@
     ],
     "platform": "web",
     "difficulty": "simple",
-    "curated": true
+    "curated": true,
+    "demo": "https://tum-till-millimeter.erlandsson.online/"
   },
   "sjocalc": {
     "title": "SjöCalc",
@@ -919,7 +922,8 @@
     ],
     "platform": "web",
     "difficulty": "intermediate",
-    "curated": true
+    "curated": true,
+    "demo": "https://sjocalc.erlandsson.online/"
   },
   "depth-charge": {
     "title": "Depth Charge",
@@ -1192,5 +1196,99 @@
     "platform": "web",
     "difficulty": "simple",
     "curated": true
+  },
+  "tidsskiftet": {
+    "title": "Tidsskiftet",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Sweden's complete guide to daylight saving time and sun times",
+    "description": [
+      "Tidsskiftet (\"The Time Shift\") is Sweden's guide to summer time, winter time, time zones and the sun's journey. Live countdown to the next clock change, sunrise and sunset times for eight Swedish cities with an interactive map, a global time display, and 18 years of history and facts.",
+      "Everything is calculated locally: no external data sources, no API calls — sun times are computed astronomically, and clock changes are calculated from the EU rules. Four seasonal themes follow actual daylight saving time."
+    ],
+    "features": [
+      "Live countdown to next clock change with time since last",
+      "Sun times for eight cities with sunrise/sunset graphs",
+      "World clock with time zones, global DST map, and historical timeline",
+      "FAQ with 18 questions, searchable knowledge base, and embeddable API"
+    ],
+    "tags": [
+      "Education"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true,
+    "demo": "https://tidsskiftet.erlandsson.online/"
+  },
+  "skattpasparande": {
+    "title": "SkattPåSparande",
+    "category": "app",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Sweden's guide to tax on savings — ISK, bonds, accounts and funds",
+    "description": [
+      "SkattPåSparande (\"Tax on Savings\") is a pedagogical guide to how Sweden tax ISK, capital insurance, stock and fund accounts and savings accounts — with interactive calculators, scenario tools, a recommendation guide and a searchable knowledge base.",
+      "All content is built on authoritative sources, and every tax figure lives in one central rules file — so annual updates are trivial. Four calculators let you compare savings methods year by year, with shareable result links."
+    ],
+    "features": [
+      "Four interactive calculators comparing tax and growth across savings methods",
+      "Recommendation guide: six questions → tailored suggestion",
+      "Scenario tool: model different interest rates, time horizons and \"what-if\" changes",
+      "Knowledge base with guides, FAQ, tax history and glossary"
+    ],
+    "tags": [
+      "Finance",
+      "Education"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true,
+    "demo": "https://skattpasparande.erlandsson.online/"
+  },
+  "bullseye": {
+    "title": "Bullseye",
+    "category": "game",
+    "status": "live",
+    "statusLabel": "Released",
+    "tagline": "Arcade darts — skill, timing and precision, zero luck",
+    "description": [
+      "Bullseye is an arcade darts game where every throw is deterministic: given identical input, the dart always lands in the identical place. The wobble on a sloppy dart is a math function of how far you missed each target zone, seeded from your own lock values — unpredictable in advance, but never a coin flip.",
+      "Three timed phases per throw (horizontal aim, vertical aim, power), each with a learnable rhythm and a small green Perfect Zone. Master the rhythm and your throws are true. A 299-test suite validates the physics and scoring."
+    ],
+    "features": [
+      "Three-phase throw mechanic: aim horizontally, aim vertically, charge power",
+      "Deterministic physics: every wobble is earned, never randomness",
+      "Statistics: games played, accuracy, win streaks and favourite mode",
+      "Arcade modes with progressive difficulty, offline PWA"
+    ],
+    "tags": [
+      "Arcade",
+      "Sports"
+    ],
+    "platform": "web",
+    "difficulty": "intermediate",
+    "curated": true,
+    "demo": "https://bullseye.erlandsson.online/"
+  },
+  "barnbok": {
+    "title": "BarnBok",
+    "category": "app",
+    "status": "in-development",
+    "tagline": "",
+    "description": [],
+    "features": [],
+    "tags": [],
+    "curated": false
+  },
+  "bildgenmcp-lokal": {
+    "title": "BILDGENMCP LOKAL",
+    "category": "app",
+    "status": "in-development",
+    "tagline": "",
+    "description": [],
+    "features": [],
+    "tags": [],
+    "curated": false
   }
 }

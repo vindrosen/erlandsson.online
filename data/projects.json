@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-23T20:01:59.128Z",
+  "generatedAt": "2026-07-24T19:08:26.651Z",
   "counts": {
-    "total": 48,
-    "games": 17,
-    "apps": 30,
+    "total": 53,
+    "games": 18,
+    "apps": 34,
     "ideas": 1,
-    "live": 38
+    "live": 41
   },
   "now": {
     "current": {
@@ -14,18 +14,18 @@
       "overridden": false
     },
     "latestGame": {
-      "slug": "crane-builder",
+      "slug": "bullseye",
       "overridden": false
     },
     "newApp": {
-      "slug": "alkoholkalkylator",
+      "slug": "skattpasparande",
       "overridden": false
     },
     "nextIdea": {
       "slug": "idea-garden-planner-ai",
       "overridden": false
     },
-    "projectCount": 48
+    "projectCount": 53
   },
   "projects": [
     {
@@ -261,6 +261,48 @@
       "curated": true
     },
     {
+      "slug": "barnbok",
+      "title": "BarnBok",
+      "category": "app",
+      "status": "in-development",
+      "statusLabel": null,
+      "tagline": "",
+      "description": [],
+      "features": [],
+      "tags": [
+        "JavaScript"
+      ],
+      "platform": "web",
+      "difficulty": null,
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": null,
+      "links": {
+        "github": null,
+        "githubPrivate": false,
+        "demo": null
+      },
+      "detected": {
+        "hasLocal": true,
+        "localFolder": "BarnBok",
+        "hasGitHub": false,
+        "repoName": null,
+        "visibility": null,
+        "primaryLanguage": null,
+        "techStack": [
+          "JavaScript"
+        ],
+        "manifests": [
+          "index.html",
+          "jamfor.html"
+        ],
+        "lastLocalCommit": "2026-07-02",
+        "lastPushed": null,
+        "lastActivity": "2026-07-02"
+      },
+      "curated": false
+    },
+    {
       "slug": "bastutavlingen",
       "title": "Bastu-tävlingen",
       "category": "app",
@@ -316,6 +358,41 @@
         "lastActivity": "2026-07-19"
       },
       "curated": true
+    },
+    {
+      "slug": "bildgenmcp-lokal",
+      "title": "BILDGENMCP LOKAL",
+      "category": "app",
+      "status": "in-development",
+      "statusLabel": null,
+      "tagline": "",
+      "description": [],
+      "features": [],
+      "tags": [],
+      "platform": "web",
+      "difficulty": null,
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": null,
+      "links": {
+        "github": null,
+        "githubPrivate": false,
+        "demo": null
+      },
+      "detected": {
+        "hasLocal": true,
+        "localFolder": "BILDGENMCP_LOKAL",
+        "hasGitHub": false,
+        "repoName": null,
+        "visibility": null,
+        "primaryLanguage": null,
+        "techStack": [],
+        "manifests": [],
+        "lastLocalCommit": "2026-07-02",
+        "lastPushed": null,
+        "lastActivity": "2026-07-02"
+      },
+      "curated": false
     },
     {
       "slug": "blizzard-run",
@@ -422,6 +499,61 @@
         "lastLocalCommit": null,
         "lastPushed": null,
         "lastActivity": "2026-07-11"
+      },
+      "curated": true
+    },
+    {
+      "slug": "bullseye",
+      "title": "Bullseye",
+      "category": "game",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "Arcade darts — skill, timing and precision, zero luck",
+      "description": [
+        "Bullseye is an arcade darts game where every throw is deterministic: given identical input, the dart always lands in the identical place. The wobble on a sloppy dart is a math function of how far you missed each target zone, seeded from your own lock values — unpredictable in advance, but never a coin flip.",
+        "Three timed phases per throw (horizontal aim, vertical aim, power), each with a learnable rhythm and a small green Perfect Zone. Master the rhythm and your throws are true. A 299-test suite validates the physics and scoring."
+      ],
+      "features": [
+        "Three-phase throw mechanic: aim horizontally, aim vertically, charge power",
+        "Deterministic physics: every wobble is earned, never randomness",
+        "Statistics: games played, accuracy, win streaks and favourite mode",
+        "Arcade modes with progressive difficulty, offline PWA"
+      ],
+      "tags": [
+        "Arcade",
+        "Sports",
+        "React",
+        "Vite",
+        "TypeScript"
+      ],
+      "platform": "web",
+      "difficulty": "intermediate",
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": "assets/art/bullseye.webp",
+      "links": {
+        "github": "https://github.com/vindrosen/Bullseye",
+        "githubPrivate": false,
+        "demo": "https://bullseye.erlandsson.online/"
+      },
+      "detected": {
+        "hasLocal": true,
+        "localFolder": "Bullseye",
+        "hasGitHub": true,
+        "repoName": "Bullseye",
+        "visibility": "PUBLIC",
+        "primaryLanguage": "TypeScript",
+        "techStack": [
+          "React",
+          "Vite",
+          "TypeScript"
+        ],
+        "manifests": [
+          "package.json"
+        ],
+        "lastLocalCommit": "2026-07-24",
+        "lastPushed": "2026-07-24",
+        "lastActivity": "2026-07-24"
       },
       "curated": true
     },
@@ -1535,7 +1667,7 @@
       "links": {
         "github": "https://github.com/vindrosen/ostersjons-fiskar",
         "githubPrivate": false,
-        "demo": "https://vindrosen.github.io/ostersjons-fiskar/"
+        "demo": "https://osterjons-fiskar.erlandsson.online/"
       },
       "detected": {
         "hasLocal": true,
@@ -2113,7 +2245,7 @@
       "links": {
         "github": "https://github.com/vindrosen/sanka-skepp",
         "githubPrivate": false,
-        "demo": "https://vindrosen.github.io/sanka-skepp/"
+        "demo": "https://sanktaskepp.erlandsson.online/"
       },
       "detected": {
         "hasLocal": true,
@@ -2167,7 +2299,7 @@
       "links": {
         "github": "https://github.com/vindrosen/SjoCalc",
         "githubPrivate": false,
-        "demo": "https://vindrosen.github.io/SjoCalc/"
+        "demo": "https://sjocalc.erlandsson.online/"
       },
       "detected": {
         "hasLocal": false,
@@ -2246,6 +2378,61 @@
         "lastLocalCommit": "2026-04-05",
         "lastPushed": "2026-04-05",
         "lastActivity": "2026-04-05"
+      },
+      "curated": true
+    },
+    {
+      "slug": "skattpasparande",
+      "title": "SkattPåSparande",
+      "category": "app",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "Sweden's guide to tax on savings — ISK, bonds, accounts and funds",
+      "description": [
+        "SkattPåSparande (\"Tax on Savings\") is a pedagogical guide to how Sweden tax ISK, capital insurance, stock and fund accounts and savings accounts — with interactive calculators, scenario tools, a recommendation guide and a searchable knowledge base.",
+        "All content is built on authoritative sources, and every tax figure lives in one central rules file — so annual updates are trivial. Four calculators let you compare savings methods year by year, with shareable result links."
+      ],
+      "features": [
+        "Four interactive calculators comparing tax and growth across savings methods",
+        "Recommendation guide: six questions → tailored suggestion",
+        "Scenario tool: model different interest rates, time horizons and \"what-if\" changes",
+        "Knowledge base with guides, FAQ, tax history and glossary"
+      ],
+      "tags": [
+        "Finance",
+        "Education",
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "platform": "web",
+      "difficulty": "intermediate",
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": "assets/art/skattpasparande.webp",
+      "links": {
+        "github": "https://github.com/vindrosen/SkattPaSparande",
+        "githubPrivate": false,
+        "demo": "https://skattpasparande.erlandsson.online/"
+      },
+      "detected": {
+        "hasLocal": true,
+        "localFolder": "SkattPaSparande",
+        "hasGitHub": true,
+        "repoName": "SkattPaSparande",
+        "visibility": "PUBLIC",
+        "primaryLanguage": "TypeScript",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS"
+        ],
+        "manifests": [
+          "package.json"
+        ],
+        "lastLocalCommit": "2026-07-24",
+        "lastPushed": "2026-07-24",
+        "lastActivity": "2026-07-24"
       },
       "curated": true
     },
@@ -2360,6 +2547,60 @@
       "curated": true
     },
     {
+      "slug": "tidsskiftet",
+      "title": "Tidsskiftet",
+      "category": "app",
+      "status": "live",
+      "statusLabel": "Released",
+      "tagline": "Sweden's complete guide to daylight saving time and sun times",
+      "description": [
+        "Tidsskiftet (\"The Time Shift\") is Sweden's guide to summer time, winter time, time zones and the sun's journey. Live countdown to the next clock change, sunrise and sunset times for eight Swedish cities with an interactive map, a global time display, and 18 years of history and facts.",
+        "Everything is calculated locally: no external data sources, no API calls — sun times are computed astronomically, and clock changes are calculated from the EU rules. Four seasonal themes follow actual daylight saving time."
+      ],
+      "features": [
+        "Live countdown to next clock change with time since last",
+        "Sun times for eight cities with sunrise/sunset graphs",
+        "World clock with time zones, global DST map, and historical timeline",
+        "FAQ with 18 questions, searchable knowledge base, and embeddable API"
+      ],
+      "tags": [
+        "Education",
+        "React",
+        "TypeScript",
+        "Tailwind CSS"
+      ],
+      "platform": "web",
+      "difficulty": "intermediate",
+      "estimatedCompletion": null,
+      "featured": false,
+      "art": "assets/art/tidsskiftet.webp",
+      "links": {
+        "github": "https://github.com/vindrosen/tidsskiftet",
+        "githubPrivate": false,
+        "demo": "https://tidsskiftet.erlandsson.online/"
+      },
+      "detected": {
+        "hasLocal": true,
+        "localFolder": "Tidsskiftet",
+        "hasGitHub": true,
+        "repoName": "tidsskiftet",
+        "visibility": "PUBLIC",
+        "primaryLanguage": "TypeScript",
+        "techStack": [
+          "React",
+          "TypeScript",
+          "Tailwind CSS"
+        ],
+        "manifests": [
+          "package.json"
+        ],
+        "lastLocalCommit": "2026-07-24",
+        "lastPushed": "2026-07-24",
+        "lastActivity": "2026-07-24"
+      },
+      "curated": true
+    },
+    {
       "slug": "tum-till-millimeter",
       "title": "Tum till Millimeter",
       "category": "app",
@@ -2391,7 +2632,7 @@
       "links": {
         "github": "https://github.com/vindrosen/tum-till-millimeter",
         "githubPrivate": false,
-        "demo": "https://vindrosen.github.io/tum-till-millimeter/"
+        "demo": "https://tum-till-millimeter.erlandsson.online/"
       },
       "detected": {
         "hasLocal": true,
